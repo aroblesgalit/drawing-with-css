@@ -213,6 +213,41 @@ main {
   right: 0;
 }
 
+.one .container .bg {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: -36px;
+  border-radius: 8px;
+  top: 20px;
+  -webkit-box-shadow: 120px 20px 0 0 rgba(0, 0, 0, 0.15), 10px 60px 0 0 rgba(0, 0, 0, 0.15), 140px 80px 0 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 120px 20px 0 0 rgba(0, 0, 0, 0.15), 10px 60px 0 0 rgba(0, 0, 0, 0.15), 140px 80px 0 0 rgba(0, 0, 0, 0.15);
+  -webkit-animation: bgAnim 3s infinite alternate;
+          animation: bgAnim 3s infinite alternate;
+}
+
+@-webkit-keyframes bgAnim {
+  from {
+    -webkit-box-shadow: 120px 20px 0 0 rgba(0, 0, 0, 0.15), 10px 60px 0 0 rgba(0, 0, 0, 0.15), 140px 80px 0 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 120px 20px 0 0 rgba(0, 0, 0, 0.15), 10px 60px 0 0 rgba(0, 0, 0, 0.15), 140px 80px 0 0 rgba(0, 0, 0, 0.15);
+  }
+  to {
+    -webkit-box-shadow: 150px 20px 0 0 rgba(0, 0, 0, 0.14), -20px 60px 0 0 rgba(0, 0, 0, 0.14), 90px 80px 0 0 rgba(0, 0, 0, 0.14);
+            box-shadow: 150px 20px 0 0 rgba(0, 0, 0, 0.14), -20px 60px 0 0 rgba(0, 0, 0, 0.14), 90px 80px 0 0 rgba(0, 0, 0, 0.14);
+  }
+}
+
+@keyframes bgAnim {
+  from {
+    -webkit-box-shadow: 120px 20px 0 0 rgba(0, 0, 0, 0.15), 10px 60px 0 0 rgba(0, 0, 0, 0.15), 140px 80px 0 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 120px 20px 0 0 rgba(0, 0, 0, 0.15), 10px 60px 0 0 rgba(0, 0, 0, 0.15), 140px 80px 0 0 rgba(0, 0, 0, 0.15);
+  }
+  to {
+    -webkit-box-shadow: 150px 20px 0 0 rgba(0, 0, 0, 0.14), -20px 60px 0 0 rgba(0, 0, 0, 0.14), 90px 80px 0 0 rgba(0, 0, 0, 0.14);
+            box-shadow: 150px 20px 0 0 rgba(0, 0, 0, 0.14), -20px 60px 0 0 rgba(0, 0, 0, 0.14), 90px 80px 0 0 rgba(0, 0, 0, 0.14);
+  }
+}
+
 .two {
   background-color: red;
 }
