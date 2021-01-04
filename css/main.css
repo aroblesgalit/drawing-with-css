@@ -196,6 +196,23 @@ main {
   top: 110px;
 }
 
+.one .container .body::before, .one .container .body::after {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 10px;
+  top: 10px;
+}
+
+.one .container .body::before {
+  border-right: 6px solid black;
+}
+
+.one .container .body::after {
+  border-left: 6px solid black;
+  right: 0;
+}
+
 .two {
   background-color: red;
 }
