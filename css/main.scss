@@ -125,6 +125,34 @@ main {
                     margin-bottom: -14px;
                 }
             }
+
+            .mouth {
+                width: 60px;
+                height: 60px;
+                position: absolute;
+                border: 6px solid black;
+                border-radius: 50%;
+                align-self: center;
+                clip-path: circle(50% at 49% 100%);
+
+                &::before, 
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    border: 6px solid black;
+                    top: 32px;
+                    left: -4px;
+                    clip-path: circle(56% at 0 0);
+                }
+
+                &::after {
+                    left: 28px;
+                    clip-path: circle(56% at 100% 0);
+                }
+            }
         }
     }
 }

@@ -154,6 +154,38 @@ main {
   margin-bottom: -14px;
 }
 
+.one .container .head .mouth {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border: 6px solid black;
+  border-radius: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-clip-path: circle(50% at 49% 100%);
+          clip-path: circle(50% at 49% 100%);
+}
+
+.one .container .head .mouth::before, .one .container .head .mouth::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 6px solid black;
+  top: 32px;
+  left: -4px;
+  -webkit-clip-path: circle(56% at 0 0);
+          clip-path: circle(56% at 0 0);
+}
+
+.one .container .head .mouth::after {
+  left: 28px;
+  -webkit-clip-path: circle(56% at 100% 0);
+          clip-path: circle(56% at 100% 0);
+}
+
 .two {
   background-color: red;
 }
