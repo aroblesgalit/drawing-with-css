@@ -114,6 +114,16 @@ main {
                         border: 2px solid white;
                     }
                 }
+
+                .cutout {
+                    position: absolute;
+                    width: 28px;
+                    height: 28px;
+                    background-color: white;
+                    border-radius: 50%;
+                    align-self: flex-end;
+                    margin-bottom: -14px;
+                }
             }
         }
     }

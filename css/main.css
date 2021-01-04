@@ -143,6 +143,17 @@ main {
   border: 2px solid white;
 }
 
+.one .container .head .eye .cutout {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: -14px;
+}
+
 .two {
   background-color: red;
 }
