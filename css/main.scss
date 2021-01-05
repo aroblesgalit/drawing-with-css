@@ -247,6 +247,11 @@ main {
             background-color: rgb(101, 202, 233);
             position: absolute;
             border-radius: 50%;
+            left: 20px;
+            top: 44px;
+            opacity: 1;
+            animation: rainAnim 3s infinite;
+            // box-shadow: 40px 40px 0 0 rgb(101, 202, 233);
 
             &::before {
                 content: "";
@@ -257,6 +262,25 @@ main {
                 border-right: 5px solid transparent;
                 border-bottom: 10px solid rgb(101, 202, 233);
                 top: -5.8px;
+            }
+        }
+
+        @keyframes rainAnim {
+            0% {
+                top: 44px;
+                opacity: 1;
+            }
+            98% {
+                top: 100px;
+                opacity: 0;
+            }
+            99% {
+                top: 44px;
+                opacity: 0;
+            }
+            100% {
+                top: 44px;
+                opacity: 1;
             }
         }
     }

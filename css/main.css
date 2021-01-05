@@ -287,6 +287,11 @@ main {
   background-color: #65cae9;
   position: absolute;
   border-radius: 50%;
+  left: 20px;
+  top: 44px;
+  opacity: 1;
+  -webkit-animation: rainAnim 3s infinite;
+          animation: rainAnim 3s infinite;
 }
 
 .two .container .rain::before {
@@ -298,6 +303,44 @@ main {
   border-right: 5px solid transparent;
   border-bottom: 10px solid #65cae9;
   top: -5.8px;
+}
+
+@-webkit-keyframes rainAnim {
+  0% {
+    top: 44px;
+    opacity: 1;
+  }
+  98% {
+    top: 100px;
+    opacity: 0;
+  }
+  99% {
+    top: 44px;
+    opacity: 0;
+  }
+  100% {
+    top: 44px;
+    opacity: 1;
+  }
+}
+
+@keyframes rainAnim {
+  0% {
+    top: 44px;
+    opacity: 1;
+  }
+  98% {
+    top: 100px;
+    opacity: 0;
+  }
+  99% {
+    top: 44px;
+    opacity: 0;
+  }
+  100% {
+    top: 44px;
+    opacity: 1;
+  }
 }
 
 .three {
