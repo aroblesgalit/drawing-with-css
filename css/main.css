@@ -281,6 +281,25 @@ main {
   bottom: 0;
 }
 
+.two .container .rain {
+  height: 10px;
+  width: 10px;
+  background-color: #65cae9;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.two .container .rain::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #65cae9;
+  top: -5.8px;
+}
+
 .three {
   background-color: green;
 }

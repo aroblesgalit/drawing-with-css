@@ -240,6 +240,25 @@ main {
                 bottom: 0;
             }
         }
+
+        .rain {
+            height: 10px;
+            width: 10px;
+            background-color: rgb(101, 202, 233);
+            position: absolute;
+            border-radius: 50%;
+
+            &::before {
+                content: "";
+                position: absolute;
+                height: 0;
+                width: 0;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-bottom: 10px solid rgb(101, 202, 233);
+                top: -5.8px;
+            }
+        }
     }
 }
 
