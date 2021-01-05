@@ -215,7 +215,32 @@ main {
 }
 
 .two {
-    background-color: red;
+    background-color: rgb(202, 66, 62);
+
+    .container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .body {
+            height: 40px;
+            width: 114px;
+            background-color: white;
+            border-radius: 20px;
+            position: relative;
+            
+            &::before {
+                content: "";
+                position: absolute;
+                background-color: white;
+                border-radius: 50%;
+                height: 70px;
+                width: 70px;
+                left: 20px;
+                bottom: 0;
+            }
+        }
+    }
 }
 
 .three {

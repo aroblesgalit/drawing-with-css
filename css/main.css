@@ -249,7 +249,36 @@ main {
 }
 
 .two {
-  background-color: red;
+  background-color: #ca423e;
+}
+
+.two .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.two .container .body {
+  height: 40px;
+  width: 114px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+}
+
+.two .container .body::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  left: 20px;
+  bottom: 0;
 }
 
 .three {
