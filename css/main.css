@@ -283,26 +283,17 @@ main {
 
 .two .container .rain {
   height: 10px;
-  width: 10px;
+  width: 4px;
   background-color: #65cae9;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 2px;
   left: 20px;
   top: 44px;
   opacity: 1;
+  -webkit-box-shadow: 30px 40px 0 0 #65cae9, 50px 20px 0 0 #65cae9, 70px 0 0 0 #65cae9;
+          box-shadow: 30px 40px 0 0 #65cae9, 50px 20px 0 0 #65cae9, 70px 0 0 0 #65cae9;
   -webkit-animation: rainAnim 3s infinite;
           animation: rainAnim 3s infinite;
-}
-
-.two .container .rain::before {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 10px solid #65cae9;
-  top: -5.8px;
 }
 
 @-webkit-keyframes rainAnim {

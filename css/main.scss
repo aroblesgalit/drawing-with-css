@@ -243,26 +243,18 @@ main {
 
         .rain {
             height: 10px;
-            width: 10px;
+            width: 4px;
             background-color: rgb(101, 202, 233);
             position: absolute;
-            border-radius: 50%;
+            border-radius: 2px;
             left: 20px;
             top: 44px;
             opacity: 1;
+            box-shadow: 
+                30px 40px 0 0 rgb(101, 202, 233),
+                50px 20px 0 0 rgb(101, 202, 233),
+                70px 0 0 0 rgb(101, 202, 233);
             animation: rainAnim 3s infinite;
-            // box-shadow: 40px 40px 0 0 rgb(101, 202, 233);
-
-            &::before {
-                content: "";
-                position: absolute;
-                height: 0;
-                width: 0;
-                border-left: 5px solid transparent;
-                border-right: 5px solid transparent;
-                border-bottom: 10px solid rgb(101, 202, 233);
-                top: -5.8px;
-            }
         }
 
         @keyframes rainAnim {
