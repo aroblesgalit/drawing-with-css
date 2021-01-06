@@ -436,8 +436,36 @@ main {
   border-radius: 2px;
   background-color: #719646;
   z-index: 4;
-  -webkit-box-shadow: 14px 20px 0 0 #719646, 0 40px 0 0 #719646, 14px 60px 0 0 #719646, 0 80px 0 0 #719646, 14px 100px 0 0 #719646, -14px 20px 0 0 #719646, -14px 60px 0 0 #719646, -14px 100px 0 0 #719646, -28px 44px 0 0 #719646, -48px 40px 0 0 #719646, -44px 22px 0 0 #719646, 48px 50px 0 0 #719646, 40px 70px 0 0 #719646;
-          box-shadow: 14px 20px 0 0 #719646, 0 40px 0 0 #719646, 14px 60px 0 0 #719646, 0 80px 0 0 #719646, 14px 100px 0 0 #719646, -14px 20px 0 0 #719646, -14px 60px 0 0 #719646, -14px 100px 0 0 #719646, -28px 44px 0 0 #719646, -48px 40px 0 0 #719646, -44px 22px 0 0 #719646, 48px 50px 0 0 #719646, 40px 70px 0 0 #719646;
+  -webkit-box-shadow: 14px 20px 0 0 #719646, 0 40px 0 0 #719646, 14px 60px 0 0 #719646, 0 80px 0 0 #719646, 14px 100px 0 0 #719646, -14px 20px 0 0 #719646, -14px 60px 0 0 #719646, -14px 100px 0 0 #719646, -28px 44px 0 0 #719646, -48px 40px 0 0 #719646, -44px 60px 0 0 #719646, -44px 22px 0 0 #719646, -46px -1px 0 0 #719646, 48px 50px 0 0 #719646, 46px 26px 0 0 #719646, 40px 70px 0 0 #719646, 40px 86px 0 0 #719646, 0 -21px 0 0 #719646;
+          box-shadow: 14px 20px 0 0 #719646, 0 40px 0 0 #719646, 14px 60px 0 0 #719646, 0 80px 0 0 #719646, 14px 100px 0 0 #719646, -14px 20px 0 0 #719646, -14px 60px 0 0 #719646, -14px 100px 0 0 #719646, -28px 44px 0 0 #719646, -48px 40px 0 0 #719646, -44px 60px 0 0 #719646, -44px 22px 0 0 #719646, -46px -1px 0 0 #719646, 48px 50px 0 0 #719646, 46px 26px 0 0 #719646, 40px 70px 0 0 #719646, 40px 86px 0 0 #719646, 0 -21px 0 0 #719646;
+}
+
+.three .container .spikes::before {
+  content: "";
+  position: absolute;
+  top: 104px;
+  left: -33px;
+  height: 3px;
+  width: 6px;
+  border-radius: 3px;
+  background-color: #719646;
+  -webkit-box-shadow: 0 -20px 0 0 #719646, 0 -40px 0 0 #719646, 0 -92px 0 0 #719646, -30px -60px 0 0 #719646, -30px -80px 0 0 #719646, 64px -80px 0 0 #719646, 64px -60px 0 0 #719646, 64px -40px 0 0 #719646, 64px 0px 0 0 #719646, 94px -54px 0 0 #719646, 94px -34px 0 0 #719646;
+          box-shadow: 0 -20px 0 0 #719646, 0 -40px 0 0 #719646, 0 -92px 0 0 #719646, -30px -60px 0 0 #719646, -30px -80px 0 0 #719646, 64px -80px 0 0 #719646, 64px -60px 0 0 #719646, 64px -40px 0 0 #719646, 64px 0px 0 0 #719646, 94px -54px 0 0 #719646, 94px -34px 0 0 #719646;
+}
+
+.three .container .spikes::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -24px;
+  height: 3px;
+  width: 6px;
+  border-radius: 3px;
+  background-color: #719646;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  -webkit-box-shadow: -14px 32px 0 0 #719646, 70px -14px 0 0 #719646, 122px 8px 0 0 #719646;
+          box-shadow: -14px 32px 0 0 #719646, 70px -14px 0 0 #719646, 122px 8px 0 0 #719646;
 }
 
 .four {

@@ -383,10 +383,53 @@ main {
                 -14px 100px 0 0 rgb(113, 150, 70),
                 -28px 44px 0 0 rgb(113, 150, 70),
                 -48px 40px 0 0 rgb(113, 150, 70),
+                -44px 60px 0 0 rgb(113, 150, 70),
                 -44px 22px 0 0 rgb(113, 150, 70),
+                -46px -1px 0 0 rgb(113, 150, 70),
                 48px 50px 0 0 rgb(113, 150, 70),
-                40px 70px 0 0 rgb(113, 150, 70)
+                46px 26px 0 0 rgb(113, 150, 70),
+                40px 70px 0 0 rgb(113, 150, 70),
+                40px 86px 0 0 rgb(113, 150, 70),
+                0 -21px 0 0 rgb(113, 150, 70);
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 104px;
+                left: -33px;
+                height: 3px;
+                width: 6px;
+                border-radius: 3px;
+                background-color: rgb(113, 150, 70);
+                box-shadow:
+                    0 -20px 0 0 rgb(113, 150, 70),
+                    0 -40px 0 0 rgb(113, 150, 70),
+                    0 -92px 0 0 rgb(113, 150, 70),
+                    -30px -60px 0 0 rgb(113, 150, 70),
+                    -30px -80px 0 0 rgb(113, 150, 70),
+                    64px -80px 0 0 rgb(113, 150, 70),
+                    64px -60px 0 0 rgb(113, 150, 70),
+                    64px -40px 0 0 rgb(113, 150, 70),
+                    64px 0px 0 0 rgb(113, 150, 70),
+                    94px -54px 0 0 rgb(113, 150, 70),
+                    94px -34px 0 0 rgb(113, 150, 70);
+            } 
             
+            &::after {
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: -24px;
+                height: 3px;
+                width: 6px;
+                border-radius: 3px;
+                background-color: rgb(113, 150, 70);
+                transform: rotateZ(45deg);
+                box-shadow:
+                    -14px 32px 0 0 rgb(113, 150, 70),
+                    70px -14px 0 0 rgb(113, 150, 70),
+                    122px 8px 0 0 rgb(113, 150, 70);
+            }
         }
     }
 }
