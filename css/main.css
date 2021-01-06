@@ -381,14 +381,16 @@ main {
 }
 
 .three .container .left-arm {
-  left: -26px;
+  left: -30px;
   z-index: 3;
 }
 
 .three .container .right-arm {
-  right: -32px;
+  right: -30px;
   top: 26px;
   z-index: 1;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 .three .container .left-arm,
@@ -426,9 +428,16 @@ main {
   background-color: #9be24a;
 }
 
-.three .container .right-arm {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
+.three .container .spikes {
+  position: absolute;
+  top: -5px;
+  height: 6px;
+  width: 3px;
+  border-radius: 2px;
+  background-color: #719646;
+  z-index: 4;
+  -webkit-box-shadow: 14px 20px 0 0 #719646, 0 40px 0 0 #719646, 14px 60px 0 0 #719646, 0 80px 0 0 #719646, 14px 100px 0 0 #719646, -14px 20px 0 0 #719646, -14px 60px 0 0 #719646, -14px 100px 0 0 #719646, -28px 44px 0 0 #719646, -48px 40px 0 0 #719646, -44px 22px 0 0 #719646, 48px 50px 0 0 #719646, 40px 70px 0 0 #719646;
+          box-shadow: 14px 20px 0 0 #719646, 0 40px 0 0 #719646, 14px 60px 0 0 #719646, 0 80px 0 0 #719646, 14px 100px 0 0 #719646, -14px 20px 0 0 #719646, -14px 60px 0 0 #719646, -14px 100px 0 0 #719646, -28px 44px 0 0 #719646, -48px 40px 0 0 #719646, -44px 22px 0 0 #719646, 48px 50px 0 0 #719646, 40px 70px 0 0 #719646;
 }
 
 .four {
