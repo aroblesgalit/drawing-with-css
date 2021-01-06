@@ -335,7 +335,27 @@ main {
 }
 
 .three {
-  background-color: green;
+  background-color: #87b387;
+}
+
+.three .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.three .container .main {
+  position: relative;
+  top: -20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid #719646;
+  background-color: #9be24a;
 }
 
 .four {

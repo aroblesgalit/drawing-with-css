@@ -279,7 +279,23 @@ main {
 }
 
 .three {
-    background-color: green;
+    background-color: rgb(135, 179, 135);
+
+    .container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .main {
+            position: relative;
+            top: -20px;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border: 2px solid rgb(113, 150, 70);
+            background-color:  rgb(155, 226, 74);
+        }
+    }
 }
 
 .four {
