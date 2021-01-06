@@ -431,6 +431,15 @@ main {
                     122px 8px 0 0 rgb(113, 150, 70);
             }
         }
+
+        .sun {
+            position: absolute;
+            top: -100px;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: rgb(246, 253, 147);
+        }
     }
 }
 
