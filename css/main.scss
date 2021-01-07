@@ -444,7 +444,21 @@ main {
 }
 
 .four {
-    background-color: purple;
+    background-color: rgb(136, 231, 243);
+
+    .container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .ice-cream {
+            position: relative;
+            width: 100px;
+            height: 120px;
+            background-color: rgb(252, 140, 215);
+            border-radius: 16px;
+        }
+    }
 }
 
 .five {

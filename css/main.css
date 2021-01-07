@@ -478,7 +478,25 @@ main {
 }
 
 .four {
-  background-color: purple;
+  background-color: #88e7f3;
+}
+
+.four .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.four .container .ice-cream {
+  position: relative;
+  width: 100px;
+  height: 120px;
+  background-color: #fc8cd7;
+  border-radius: 16px;
 }
 
 .five {
