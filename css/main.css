@@ -687,8 +687,20 @@ main {
   border-radius: 12px 12px 0 0;
 }
 
+.five .container .head .smile {
+  z-index: 2;
+  position: absolute;
+  bottom: -4px;
+  width: 22px;
+  height: 4px;
+  border: 3px solid #414141;
+  border-top: none;
+  border-radius: 0 0 30px 30px / 0 0 20px 20px;
+}
+
 .five .container .head .eyes {
   position: relative;
+  top: 2px;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -711,7 +723,7 @@ main {
 
 .five .container .head .eyebrows {
   position: absolute;
-  top: 10px;
+  top: 12px;
   width: 88%;
   display: -webkit-box;
   display: -ms-flexbox;
