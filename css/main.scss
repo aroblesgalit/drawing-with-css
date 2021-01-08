@@ -698,11 +698,24 @@ main {
 
                 .left,
                 .right {
+                    position: relative;
                     height: 16px;
                     width: 16px;
                     border-radius: 8px;
                     background-color: rgb(207, 207, 207);
                     border: 2px solid #414141;
+                    box-shadow: inset 2px -2px 0 0 rgba(0, 0, 0, 0.1);
+
+                    &::before {
+                        position: absolute;
+                        right: 1px;
+                        top: 1px;
+                        content: "";
+                        height: 7px;
+                        width: 7px;
+                        background-color: #f2f2f2;
+                        border-radius: 50%;
+                    }
                 }
             }
 
@@ -715,11 +728,24 @@ main {
 
                 .left,
                 .right {
+                    position: relative;
                     height: 12px;
                     width: 12px;
                     border-radius: 6px;
                     background-color: rgb(207, 207, 207);
                     border: 2px solid #414141;
+                    box-shadow: inset 2px -2px 0 0 rgba(0, 0, 0, 0.1);
+
+                    &::before {
+                        position: absolute;
+                        right: 1px;
+                        top: 1px;
+                        content: "";
+                        height: 4px;
+                        width: 4px;
+                        background-color: #f2f2f2;
+                        border-radius: 50%;
+                    }
                 }
             }
         }

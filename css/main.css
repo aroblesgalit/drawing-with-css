@@ -785,11 +785,26 @@ main {
 
 .five .container .body .lg-circles .left,
 .five .container .body .lg-circles .right {
+  position: relative;
   height: 16px;
   width: 16px;
   border-radius: 8px;
   background-color: #cfcfcf;
   border: 2px solid #414141;
+  -webkit-box-shadow: inset 2px -2px 0 0 rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px -2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.five .container .body .lg-circles .left::before,
+.five .container .body .lg-circles .right::before {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  content: "";
+  height: 7px;
+  width: 7px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
 }
 
 .five .container .body .sm-circles {
@@ -806,11 +821,26 @@ main {
 
 .five .container .body .sm-circles .left,
 .five .container .body .sm-circles .right {
+  position: relative;
   height: 12px;
   width: 12px;
   border-radius: 6px;
   background-color: #cfcfcf;
   border: 2px solid #414141;
+  -webkit-box-shadow: inset 2px -2px 0 0 rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px -2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.five .container .body .sm-circles .left::before,
+.five .container .body .sm-circles .right::before {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  content: "";
+  height: 4px;
+  width: 4px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
 }
 
 .six {
