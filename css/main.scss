@@ -759,6 +759,28 @@ main {
             border: 3px solid #414141;
             border-radius: 0 0 10px 10px;
         }
+
+        .arms {
+            position: absolute;
+            top: 72px;
+            width: 88px;
+            display: flex;
+            justify-content: space-between;
+
+            .left,
+            .right {
+                position: relative;
+                height: 24px;
+                width: 24px;
+                background-color: rgb(245, 187, 132);
+                border: 3px solid #414141;
+                border-radius: 50%;
+            }
+
+            .right {
+                top: 8px;
+            }
+        }
     }
 }
 

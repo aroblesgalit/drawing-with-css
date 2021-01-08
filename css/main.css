@@ -853,6 +853,32 @@ main {
   border-radius: 0 0 10px 10px;
 }
 
+.five .container .arms {
+  position: absolute;
+  top: 72px;
+  width: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.five .container .arms .left,
+.five .container .arms .right {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  background-color: #f5bb84;
+  border: 3px solid #414141;
+  border-radius: 50%;
+}
+
+.five .container .arms .right {
+  top: 8px;
+}
+
 .six {
   background-color: orange;
 }
