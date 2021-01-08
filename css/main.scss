@@ -540,6 +540,25 @@ main {
         display: flex;
         justify-content: center;
         position: relative;
+
+        .helmet {
+            position: relative;
+            height: 40px;
+            width: 80px;
+            background-color: #c0c0c0;
+            border: 3px solid #414141;
+            border-radius: 40px 40px 6px 6px;
+            box-shadow: inset 10px 0 0 0 rgba(0, 0, 0, 0.1);
+
+            &::before {
+                content: "";
+                position: absolute;
+                height: 40px;
+                width: 80px;
+                border: 3px solid #414141;
+                border-radius: 40px 40px 6px 6px;
+            }
+        }
     }
 }
 
