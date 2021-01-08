@@ -542,6 +542,8 @@ main {
         position: relative;
 
         .helmet {
+            display: flex;
+            justify-content: center;
             position: relative;
             height: 40px;
             width: 80px;
@@ -553,13 +555,35 @@ main {
             &::before {
                 content: "";
                 position: absolute;
-                right: 6px;
-                top: 6px;
+                right: 5px;
+                top: 4px;
                 height: 20px;
                 width: 20px;
                 border-right: 3px solid #f2f2f2;
                 border-top: 3px solid #f2f2f2;
                 border-top-right-radius: 40px;
+            }
+
+            .front {
+                position: absolute;
+                top: -6px;
+                height: 46px;
+                width: 20px;
+                background-color: #c0c0c0;
+                border: 3px solid #414141;
+                border-radius: 6px;
+                box-shadow: 
+                    inset 5px 0 0 0 rgba(0, 0, 0, 0.1),
+                    -2px 2px 0 0 rgba(0, 0, 0, 0.2);
+                
+                &::before {
+                    position: absolute;
+                    top: 2px;
+                    right: 2px;
+                    content: "";
+                    height: 34px;
+                    border-right: 3px solid #f2f2f2;
+                }
             }
         }
     }
