@@ -687,6 +687,56 @@ main {
   border-radius: 12px 12px 0 0;
 }
 
+.five .container .head .eyes {
+  position: relative;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.five .container .head .eye {
+  position: relative;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #414141;
+}
+
+.five .container .head .eyebrows {
+  position: absolute;
+  top: 10px;
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.five .container .head .eyebrows .left,
+.five .container .head .eyebrows .right {
+  width: 13px;
+  border-top: 3px solid #414141;
+}
+
+.five .container .head .eyebrows .left {
+  -webkit-transform: rotateZ(30deg);
+          transform: rotateZ(30deg);
+}
+
+.five .container .head .eyebrows .right {
+  -webkit-transform: rotateZ(-30deg);
+          transform: rotateZ(-30deg);
+}
+
 .six {
   background-color: orange;
 }

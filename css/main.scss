@@ -622,6 +622,44 @@ main {
                 border-bottom: none;
                 border-radius: 12px 12px 0 0;
             }
+
+            .eyes {
+                position: relative;
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .eye {
+                position: relative;
+                height: 8px;
+                width: 8px;
+                border-radius: 50%;
+                background-color: #414141;
+            }
+
+            .eyebrows {
+                position: absolute;
+                top: 10px;
+                width: 88%;
+                display: flex;
+                justify-content: space-between;
+                
+                .left,
+                .right {
+                    width: 13px;
+                    border-top: 3px solid #414141;
+                }
+
+                .left {
+                    transform: rotateZ(30deg);
+                }
+
+                .right {
+                    transform: rotateZ(-30deg);
+                }
+            }
         }
     }
 }
