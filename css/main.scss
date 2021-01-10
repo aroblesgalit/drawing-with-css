@@ -803,6 +803,16 @@ main {
             border-radius: 6px;
             background-color: #c0c0c0;
             
+            &::before {
+                position: absolute;
+                left: 3px;
+                top: 2px;
+                content: "";
+                height: 18px;
+                width: 32px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 4px;
+            }
         }
     }
 }
