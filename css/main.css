@@ -691,7 +691,62 @@ main {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.five .container .helmet-wings .lg .left {
+  -webkit-transform: rotateZ(-20deg);
+          transform: rotateZ(-20deg);
+}
+
+.five .container .helmet-wings .lg .right {
+  -webkit-transform: rotateZ(20deg);
+          transform: rotateZ(20deg);
+}
+
+.five .container .helmet-wings .md {
+  position: absolute;
+  top: 12px;
+  left: -5px;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.five .container .helmet-wings .md .left,
+.five .container .helmet-wings .md .right {
+  position: relative;
+  height: 26px;
+  width: 14px;
+  border: 3px solid #414141;
+  background-color: #c0c0c0;
+  border-radius: 7px 7px 0 0;
+}
+
+.five .container .helmet-wings .md .left::before,
+.five .container .helmet-wings .md .right::before {
+  position: absolute;
+  left: 1px;
+  top: 2px;
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.five .container .helmet-wings .md .left {
+  -webkit-transform: rotateZ(-40deg);
+          transform: rotateZ(-40deg);
+}
+
+.five .container .helmet-wings .md .right {
+  -webkit-transform: rotateZ(40deg);
+          transform: rotateZ(40deg);
 }
 
 .five .container .beard {

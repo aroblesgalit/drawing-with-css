@@ -621,8 +621,54 @@ main {
                         height: 8px;
                         width: 8px;
                         border-radius: 50%;
-                        background-color: rgba(255, 255, 255, 0.6);
+                        background-color: rgba(255, 255, 255, 0.8);
                     }
+                }
+
+                .left {
+                    transform: rotateZ(-20deg);
+                }
+
+                .right {
+                    transform: rotateZ(20deg);
+                }
+            }
+
+            .md {
+                position: absolute;
+                top: 12px;
+                left: -5px;
+                width: 90px;
+                display: flex;
+                justify-content: space-between;
+
+                .left,
+                .right {
+                    position: relative;
+                    height: 26px;
+                    width: 14px;
+                    border: 3px solid #414141;
+                    background-color: #c0c0c0;
+                    border-radius: 7px 7px 0 0;
+
+                    &::before {
+                        position: absolute;
+                        left: 1px;
+                        top: 2px;
+                        content: "";
+                        height: 6px;
+                        width: 6px;
+                        border-radius: 50%;
+                        background-color: rgba(255, 255, 255, 0.8);
+                    }
+                }
+
+                .left {
+                    transform: rotateZ(-40deg);
+                }
+
+                .right {
+                    transform: rotateZ(40deg);
                 }
             }
         }
