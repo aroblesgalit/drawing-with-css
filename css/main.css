@@ -648,6 +648,37 @@ main {
   border-right: 3px solid #f2f2f2;
 }
 
+.five .container .helmet-wings {
+  position: absolute;
+  top: -10px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.five .container .helmet-wings .lg {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.five .container .helmet-wings .lg .left,
+.five .container .helmet-wings .lg .right {
+  height: 20px;
+  width: 14px;
+  border: 3px solid #414141;
+  background-color: #c0c0c0;
+}
+
 .five .container .beard {
   position: absolute;
   top: 36px;
