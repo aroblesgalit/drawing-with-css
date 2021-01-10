@@ -671,6 +671,44 @@ main {
                     transform: rotateZ(40deg);
                 }
             }
+
+            .sm {
+                position: absolute;
+                top: 23px;
+                left: -8px;
+                width: 96px;
+                display: flex;
+                justify-content: space-between;
+
+                .left,
+                .right {
+                    position: relative;
+                    height: 22px;
+                    width: 12px;
+                    border: 3px solid #414141;
+                    background-color: #c0c0c0;
+                    border-radius: 6px 6px 0 0;
+
+                    &::before {
+                        position: absolute;
+                        left: 1px;
+                        top: 2px;
+                        content: "";
+                        height: 4px;
+                        width: 4px;
+                        border-radius: 50%;
+                        background-color: rgba(255, 255, 255, 0.8);
+                    }
+                }
+
+                .left {
+                    transform: rotateZ(-60deg);
+                }
+
+                .right {
+                    transform: rotateZ(60deg);
+                }
+            }
         }
 
         .beard {

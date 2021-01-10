@@ -749,6 +749,51 @@ main {
           transform: rotateZ(40deg);
 }
 
+.five .container .helmet-wings .sm {
+  position: absolute;
+  top: 23px;
+  left: -8px;
+  width: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.five .container .helmet-wings .sm .left,
+.five .container .helmet-wings .sm .right {
+  position: relative;
+  height: 22px;
+  width: 12px;
+  border: 3px solid #414141;
+  background-color: #c0c0c0;
+  border-radius: 6px 6px 0 0;
+}
+
+.five .container .helmet-wings .sm .left::before,
+.five .container .helmet-wings .sm .right::before {
+  position: absolute;
+  left: 1px;
+  top: 2px;
+  content: "";
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.five .container .helmet-wings .sm .left {
+  -webkit-transform: rotateZ(-60deg);
+          transform: rotateZ(-60deg);
+}
+
+.five .container .helmet-wings .sm .right {
+  -webkit-transform: rotateZ(60deg);
+          transform: rotateZ(60deg);
+}
+
 .five .container .beard {
   position: absolute;
   top: 36px;
