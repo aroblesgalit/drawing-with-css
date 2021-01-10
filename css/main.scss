@@ -797,21 +797,38 @@ main {
         .hammer {
             position: absolute;
             top: 100px;
-            height: 28px;
-            width: 44px;
-            border: 3px solid #414141;
-            border-radius: 6px;
-            background-color: #c0c0c0;
+            display: flex;
+            justify-content: center;
             
-            &::before {
+            .h-head {
+                position: relative;
+                height: 28px;
+                width: 44px;
+                border: 3px solid #414141;
+                border-radius: 6px;
+                background-color: #c0c0c0;
+
+                &::before {
+                    position: absolute;
+                    left: 3px;
+                    top: 2px;
+                    content: "";
+                    height: 18px;
+                    width: 32px;
+                    background-color: rgba(255, 255, 255, 0.8);
+                    border-radius: 4px;
+                }
+            }
+            
+            .h-arm {
                 position: absolute;
-                left: 3px;
-                top: 2px;
+                top: -5px;
                 content: "";
-                height: 18px;
-                width: 32px;
-                background-color: rgba(255, 255, 255, 0.8);
-                border-radius: 4px;
+                height: 56px;
+                width: 14px;
+                border-radius: 7px;
+                border: 3px solid #414141;
+                background-color: #c0c0c0;
             }
         }
     }
