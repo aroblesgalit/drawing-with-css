@@ -999,6 +999,17 @@ main {
   border-radius: 0 0 10px 10px;
 }
 
+.five .container .cape::before {
+  position: absolute;
+  bottom: -12px;
+  left: -4px;
+  content: "";
+  height: 12px;
+  width: 64px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .five .container .arms {
   z-index: 4;
   position: absolute;
