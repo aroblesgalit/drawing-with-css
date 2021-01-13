@@ -1098,7 +1098,46 @@ main {
 }
 
 .six {
-  background-color: orange;
+  background-color: #35373f;
+}
+
+.six .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.six .container .walls {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.six .container .walls .left {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #5cb8a1;
+  -webkit-transform: skewY(-30deg);
+          transform: skewY(-30deg);
+}
+
+.six .container .walls .right {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #f2f2f2;
+  -webkit-transform: skewY(30deg);
+          transform: skewY(30deg);
 }
 
 .seven {

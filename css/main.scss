@@ -970,7 +970,35 @@ main {
 }
 
 .six {
-    background-color: orange;
+    background-color: rgb(53, 55, 63);
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        .walls {
+            position: relative;
+            display: flex;
+
+            .left {
+                position: relative;
+                height: 200px;
+                width: 200px;
+                background-color: rgb(92, 184, 161);
+                transform: skewY(-30deg);
+            }
+
+            .right {
+                position: relative;
+                height: 200px;
+                width: 200px;
+                background-color: #f2f2f2;
+                transform: skewY(30deg);
+            }
+        }
+    }
 }
 
 .seven {
