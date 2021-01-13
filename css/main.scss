@@ -984,19 +984,28 @@ main {
 
             .left {
                 position: relative;
-                height: 200px;
-                width: 200px;
+                height: 150px;
+                width: 150px;
                 background-color: rgb(92, 184, 161);
                 transform: skewY(-30deg);
             }
 
             .right {
                 position: relative;
-                height: 200px;
-                width: 200px;
+                height: 150px;
+                width: 150px;
                 background-color: #f2f2f2;
                 transform: skewY(30deg);
             }
+        }
+
+        .floor {
+            position: absolute;
+            top: 88px;
+            height: 212px;
+            width: 212px;
+            background-color: #8a7f77;
+            transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
         }
     }
 }
