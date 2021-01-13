@@ -988,6 +988,17 @@ main {
                 width: 150px;
                 background-color: rgb(92, 184, 161);
                 transform: skewY(-30deg);
+
+                &::before {
+                    position: absolute;
+                    left: -24px;
+                    top: -8px;
+                    content: "";
+                    height: 10px;
+                    width: 193px;
+                    background-color: #cfcfcf;
+                    transform: rotateX(54deg) rotateY(25deg) rotateZ(-30deg);
+                }
             }
 
             .right {

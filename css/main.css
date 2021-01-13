@@ -1131,6 +1131,18 @@ main {
           transform: skewY(-30deg);
 }
 
+.six .container .walls .left::before {
+  position: absolute;
+  left: -24px;
+  top: -8px;
+  content: "";
+  height: 10px;
+  width: 193px;
+  background-color: #cfcfcf;
+  -webkit-transform: rotateX(54deg) rotateY(25deg) rotateZ(-30deg);
+          transform: rotateX(54deg) rotateY(25deg) rotateZ(-30deg);
+}
+
 .six .container .walls .right {
   position: relative;
   height: 150px;
