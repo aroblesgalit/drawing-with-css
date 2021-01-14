@@ -1133,14 +1133,14 @@ main {
 
 .six .container .walls .left::before {
   position: absolute;
-  left: -30px;
-  top: -8px;
+  left: -2px;
+  top: -6px;
   content: "";
-  height: 10px;
-  width: 205px;
+  height: 6px;
+  width: 150px;
   background-color: #a5a5a5;
-  -webkit-transform: rotateX(60deg) rotateY(25deg) rotateZ(-36deg);
-          transform: rotateX(60deg) rotateY(25deg) rotateZ(-36deg);
+  -webkit-transform: skewX(40deg);
+          transform: skewX(40deg);
 }
 
 .six .container .walls .left::after {
@@ -1151,8 +1151,8 @@ main {
   height: 151px;
   width: 5px;
   background-color: #f2f2f2;
-  -webkit-transform: skewY(48deg);
-          transform: skewY(48deg);
+  -webkit-transform: skewY(51deg);
+          transform: skewY(51deg);
 }
 
 .six .container .walls .right {
@@ -1162,6 +1162,18 @@ main {
   background-color: #f2f2f2;
   -webkit-transform: skewY(30deg);
           transform: skewY(30deg);
+}
+
+.six .container .walls .right::before {
+  position: absolute;
+  left: -3px;
+  top: -6px;
+  content: "";
+  height: 6px;
+  width: 156px;
+  background-color: #a5a5a5;
+  -webkit-transform: skewX(-40deg);
+          transform: skewX(-40deg);
 }
 
 .six .container .floor {
