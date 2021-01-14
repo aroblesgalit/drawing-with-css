@@ -1061,6 +1061,17 @@ main {
                 background-color: #a5a5a5;
                 transform: skewX(-48deg);
             }
+
+            &::after {
+                position: absolute;
+                left: -8px;
+                top: -3px;
+                content: "";
+                height: 219px;
+                width: 8px;
+                background-color: #f2f2f2;
+                transform: skewY(-48deg);
+            }
         }
     }
 }
