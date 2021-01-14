@@ -1133,14 +1133,26 @@ main {
 
 .six .container .walls .left::before {
   position: absolute;
-  left: -24px;
+  left: -30px;
   top: -8px;
   content: "";
   height: 10px;
-  width: 193px;
-  background-color: #cfcfcf;
-  -webkit-transform: rotateX(54deg) rotateY(25deg) rotateZ(-30deg);
-          transform: rotateX(54deg) rotateY(25deg) rotateZ(-30deg);
+  width: 205px;
+  background-color: #a5a5a5;
+  -webkit-transform: rotateX(60deg) rotateY(25deg) rotateZ(-36deg);
+          transform: rotateX(60deg) rotateY(25deg) rotateZ(-36deg);
+}
+
+.six .container .walls .left::after {
+  position: absolute;
+  top: -3px;
+  left: -5px;
+  content: "";
+  height: 151px;
+  width: 5px;
+  background-color: #f2f2f2;
+  -webkit-transform: skewY(48deg);
+          transform: skewY(48deg);
 }
 
 .six .container .walls .right {

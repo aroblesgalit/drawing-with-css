@@ -991,13 +991,24 @@ main {
 
                 &::before {
                     position: absolute;
-                    left: -24px;
+                    left: -30px;
                     top: -8px;
                     content: "";
                     height: 10px;
-                    width: 193px;
-                    background-color: #cfcfcf;
-                    transform: rotateX(54deg) rotateY(25deg) rotateZ(-30deg);
+                    width: 205px;
+                    background-color: #a5a5a5;
+                    transform: rotateX(60deg) rotateY(25deg) rotateZ(-36deg);
+                }
+
+                &::after {
+                    position: absolute;
+                    top: -3px;
+                    left: -5px;
+                    content: "";
+                    height: 151px;
+                    width: 5px;
+                    background-color: #f2f2f2;
+                    transform: skewY(48deg)
                 }
             }
 
