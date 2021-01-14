@@ -1176,6 +1176,18 @@ main {
           transform: skewX(-40deg);
 }
 
+.six .container .walls .right::after {
+  position: absolute;
+  right: -5.4px;
+  top: -2.6px;
+  content: "";
+  height: 150.5px;
+  width: 5px;
+  background-color: #a5a5a5;
+  -webkit-transform: skewY(-51deg);
+          transform: skewY(-51deg);
+}
+
 .six .container .floor {
   position: absolute;
   top: 88px;

@@ -997,7 +997,6 @@ main {
                     height: 6px;
                     width: 150px;
                     background-color: #a5a5a5;
-                    // transform: rotateX(60deg) rotateY(25deg) rotateZ(-36deg);
                     transform: skewX(40deg);
                 }
 
@@ -1029,6 +1028,17 @@ main {
                     width: 156px;
                     background-color: #a5a5a5;
                     transform: skewX(-40deg)
+                }
+
+                &::after {
+                    position: absolute;
+                    right: -5.4px;
+                    top: -2.6px;
+                    content: "";
+                    height: 150.5px;
+                    width: 5px;
+                    background-color: #a5a5a5;
+                    transform: skewY(-51deg)
                 }
             }
         }
