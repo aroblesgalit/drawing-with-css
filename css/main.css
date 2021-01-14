@@ -1198,6 +1198,18 @@ main {
           transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
 }
 
+.six .container .floor::before {
+  position: absolute;
+  left: -4px;
+  bottom: -8px;
+  content: "";
+  height: 8px;
+  width: 220px;
+  background-color: #a5a5a5;
+  -webkit-transform: skewX(-48deg);
+          transform: skewX(-48deg);
+}
+
 .seven {
   background-color: gray;
 }

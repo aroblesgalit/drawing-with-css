@@ -1008,7 +1008,7 @@ main {
                     height: 151px;
                     width: 5px;
                     background-color: #f2f2f2;
-                    transform: skewY(51deg)
+                    transform: skewY(51deg);
                 }
             }
 
@@ -1027,7 +1027,7 @@ main {
                     height: 6px;
                     width: 156px;
                     background-color: #a5a5a5;
-                    transform: skewX(-40deg)
+                    transform: skewX(-40deg);
                 }
 
                 &::after {
@@ -1038,7 +1038,7 @@ main {
                     height: 150.5px;
                     width: 5px;
                     background-color: #a5a5a5;
-                    transform: skewY(-51deg)
+                    transform: skewY(-51deg);
                 }
             }
         }
@@ -1050,6 +1050,17 @@ main {
             width: 212px;
             background-color: #8a7f77;
             transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+
+            &::before {
+                position: absolute;
+                left: -4px;
+                bottom: -8px;
+                content: "";
+                height: 8px;
+                width: 220px;
+                background-color: #a5a5a5;
+                transform: skewX(-48deg);
+            }
         }
     }
 }
