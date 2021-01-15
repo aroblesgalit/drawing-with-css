@@ -1072,6 +1072,16 @@ main {
                 background-color: #f2f2f2;
                 transform: skewY(-48deg);
             }
+
+            .panels {
+                position: absolute;
+                top: -2px;
+                left: 2px;
+                height: 100%;
+                width: 12.4%;
+                background-color: rgb(135, 145, 144);
+                box-shadow: 29px 0 0 0 rgb(135, 145, 144);
+            }
         }
     }
 }
