@@ -1048,7 +1048,7 @@ main {
             top: 88px;
             height: 212px;
             width: 212px;
-            background-color: #8a7f77;
+            background-color: #574f4b;
             transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
 
             &::before {
@@ -1076,11 +1076,18 @@ main {
             .panels {
                 position: absolute;
                 top: -2px;
-                left: 2px;
+                left: 3px;
                 height: 100%;
-                width: 12.4%;
+                width: 11.5%;
                 background-color: rgb(135, 145, 144);
-                box-shadow: 29px 0 0 0 rgb(135, 145, 144);
+                box-shadow: 
+                    26.5px 0 0 0 rgb(135, 145, 144),
+                    53px 0 0 0 rgb(135, 145, 144),
+                    79.5px 0 0 0 rgb(135, 145, 144),
+                    106px 0 0 0 rgb(135, 145, 144),
+                    132.5px 0 0 0 rgb(135, 145, 144),
+                    159px 0 0 0 rgb(135, 145, 144),
+                    185.5px 0 0 0 rgb(135, 145, 144);
             }
         }
     }

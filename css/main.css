@@ -1193,7 +1193,7 @@ main {
   top: 88px;
   height: 212px;
   width: 212px;
-  background-color: #8a7f77;
+  background-color: #574f4b;
   -webkit-transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
           transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
 }
@@ -1225,12 +1225,12 @@ main {
 .six .container .floor .panels {
   position: absolute;
   top: -2px;
-  left: 2px;
+  left: 3px;
   height: 100%;
-  width: 12.4%;
+  width: 11.5%;
   background-color: #879190;
-  -webkit-box-shadow: 29px 0 0 0 #879190;
-          box-shadow: 29px 0 0 0 #879190;
+  -webkit-box-shadow: 26.5px 0 0 0 #879190, 53px 0 0 0 #879190, 79.5px 0 0 0 #879190, 106px 0 0 0 #879190, 132.5px 0 0 0 #879190, 159px 0 0 0 #879190, 185.5px 0 0 0 #879190;
+          box-shadow: 26.5px 0 0 0 #879190, 53px 0 0 0 #879190, 79.5px 0 0 0 #879190, 106px 0 0 0 #879190, 132.5px 0 0 0 #879190, 159px 0 0 0 #879190, 185.5px 0 0 0 #879190;
 }
 
 .seven {
