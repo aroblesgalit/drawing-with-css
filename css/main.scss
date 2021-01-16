@@ -1099,6 +1099,25 @@ main {
                     background-color: rgb(210, 218, 217);
                     transform: skewY(-45deg)
                 }
+
+                &::after {
+                    position: absolute;
+                    bottom: -2px;
+                    left: -1px;
+                    content: "";
+                    height: 2px;
+                    width: 100%;
+                    background-color:  rgb(101, 114, 113);
+                    transform: skewX(-45deg);
+                    box-shadow: 
+                        26.5px 0 0 0 rgb(101, 114, 113),
+                        53px 0 0 0 rgb(101, 114, 113),
+                        79.5px 0 0 0 rgb(101, 114, 113),
+                        106px 0 0 0 rgb(101, 114, 113),
+                        132.5px 0 0 0 rgb(101, 114, 113),
+                        159px 0 0 0 rgb(101, 114, 113),
+                        185.5px 0 0 0 rgb(101, 114, 113);
+                }
             }
         }
     }

@@ -1245,6 +1245,20 @@ main {
           transform: skewY(-45deg);
 }
 
+.six .container .floor .panels::after {
+  position: absolute;
+  bottom: -2px;
+  left: -1px;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #657271;
+  -webkit-transform: skewX(-45deg);
+          transform: skewX(-45deg);
+  -webkit-box-shadow: 26.5px 0 0 0 #657271, 53px 0 0 0 #657271, 79.5px 0 0 0 #657271, 106px 0 0 0 #657271, 132.5px 0 0 0 #657271, 159px 0 0 0 #657271, 185.5px 0 0 0 #657271;
+          box-shadow: 26.5px 0 0 0 #657271, 53px 0 0 0 #657271, 79.5px 0 0 0 #657271, 106px 0 0 0 #657271, 132.5px 0 0 0 #657271, 159px 0 0 0 #657271, 185.5px 0 0 0 #657271;
+}
+
 .seven {
   background-color: gray;
 }
