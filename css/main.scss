@@ -1088,6 +1088,17 @@ main {
                     132.5px 0 0 0 rgb(135, 145, 144),
                     159px 0 0 0 rgb(135, 145, 144),
                     185.5px 0 0 0 rgb(135, 145, 144);
+                
+                &::before {
+                    position: absolute;
+                    left: -2px;
+                    top: 1px;
+                    content: "";
+                    height: 100%;
+                    width: 2px;
+                    background-color: rgb(210, 218, 217);
+                    transform: skewY(-45deg)
+                }
             }
         }
     }

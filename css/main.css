@@ -1233,6 +1233,18 @@ main {
           box-shadow: 26.5px 0 0 0 #879190, 53px 0 0 0 #879190, 79.5px 0 0 0 #879190, 106px 0 0 0 #879190, 132.5px 0 0 0 #879190, 159px 0 0 0 #879190, 185.5px 0 0 0 #879190;
 }
 
+.six .container .floor .panels::before {
+  position: absolute;
+  left: -2px;
+  top: 1px;
+  content: "";
+  height: 100%;
+  width: 2px;
+  background-color: #d2dad9;
+  -webkit-transform: skewY(-45deg);
+          transform: skewY(-45deg);
+}
+
 .seven {
   background-color: gray;
 }
