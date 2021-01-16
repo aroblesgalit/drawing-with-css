@@ -1097,7 +1097,15 @@ main {
                     height: 100%;
                     width: 2px;
                     background-color: rgb(210, 218, 217);
-                    transform: skewY(-45deg)
+                    transform: skewY(-45deg);
+                    box-shadow: 
+                        26.5px 26.5px 0 0 rgb(70, 80, 79),
+                        53px 53px 0 0 rgb(70, 80, 79),
+                        79.5px 79.5px 0 0  rgb(70, 80, 79),
+                        106px 106px 0 0  rgb(70, 80, 79),
+                        132.5px 132.5px 0 0 rgb(70, 80, 79),
+                        159px 159px 0 0  rgb(70, 80, 79),
+                        185.5px 185.5px 0 0 rgb(70, 80, 79);
                 }
 
                 &::after {

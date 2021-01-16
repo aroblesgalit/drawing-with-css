@@ -1243,6 +1243,8 @@ main {
   background-color: #d2dad9;
   -webkit-transform: skewY(-45deg);
           transform: skewY(-45deg);
+  -webkit-box-shadow: 26.5px 26.5px 0 0 #46504f, 53px 53px 0 0 #46504f, 79.5px 79.5px 0 0 #46504f, 106px 106px 0 0 #46504f, 132.5px 132.5px 0 0 #46504f, 159px 159px 0 0 #46504f, 185.5px 185.5px 0 0 #46504f;
+          box-shadow: 26.5px 26.5px 0 0 #46504f, 53px 53px 0 0 #46504f, 79.5px 79.5px 0 0 #46504f, 106px 106px 0 0 #46504f, 132.5px 132.5px 0 0 #46504f, 159px 159px 0 0 #46504f, 185.5px 185.5px 0 0 #46504f;
 }
 
 .six .container .floor .panels::after {
