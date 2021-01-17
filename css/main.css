@@ -1263,7 +1263,7 @@ main {
 
 .six .container .bed {
   position: absolute;
-  top: 120px;
+  top: 122px;
   right: 60px;
 }
 
@@ -1271,7 +1271,7 @@ main {
   position: relative;
   height: 90px;
   width: 140px;
-  background-color: #6e4327;
+  background-color: #503422;
   -webkit-transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
           transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
 }
@@ -1283,9 +1283,21 @@ main {
   content: "";
   height: 100%;
   width: 10px;
-  background-color: #815335;
+  background-color: #634530;
   -webkit-transform: skewY(-45deg);
           transform: skewY(-45deg);
+}
+
+.six .container .bed .bedframe::after {
+  position: absolute;
+  bottom: -10px;
+  right: 5px;
+  content: "";
+  height: 10px;
+  width: 100%;
+  background-color: #3d2617;
+  -webkit-transform: skewX(-45deg);
+          transform: skewX(-45deg);
 }
 
 .seven {

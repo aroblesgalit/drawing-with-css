@@ -1131,14 +1131,14 @@ main {
 
         .bed {
             position: absolute;
-            top: 120px;
+            top: 122px;
             right: 60px;
 
             .bedframe {
                 position: relative;
                 height: 90px;
                 width: 140px;
-                background-color: rgb(110, 67, 39);
+                background-color: rgb(80, 52, 34);
                 transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
 
                 &::before {
@@ -1148,8 +1148,19 @@ main {
                     content: "";
                     height: 100%;
                     width: 10px;
-                    background-color: rgb(129, 83, 53);
+                    background-color: rgb(99, 69, 48);
                     transform: skewY(-45deg);
+                }
+
+                &::after {
+                    position: absolute;
+                    bottom: -10px;
+                    right: 5px;
+                    content: "";
+                    height: 10px;
+                    width: 100%;
+                    background-color: rgb(61, 38, 23);
+                    transform: skewX(-45deg);
                 }
             }
         }
