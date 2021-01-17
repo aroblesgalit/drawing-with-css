@@ -1128,6 +1128,20 @@ main {
                 }
             }
         }
+
+        .bed {
+            position: absolute;
+            top: 120px;
+            right: 60px;
+
+            .bedframe {
+                position: relative;
+                height: 90px;
+                width: 140px;
+                background-color: rgb(92, 55, 30);
+                transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+            }
+        }
     }
 }
 

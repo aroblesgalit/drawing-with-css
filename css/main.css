@@ -1261,6 +1261,21 @@ main {
           box-shadow: 26.5px 0 0 0 #657271, 53px 0 0 0 #657271, 79.5px 0 0 0 #657271, 106px 0 0 0 #657271, 132.5px 0 0 0 #657271, 159px 0 0 0 #657271, 185.5px 0 0 0 #657271;
 }
 
+.six .container .bed {
+  position: absolute;
+  top: 120px;
+  right: 60px;
+}
+
+.six .container .bed .bedframe {
+  position: relative;
+  height: 90px;
+  width: 140px;
+  background-color: #5c371e;
+  -webkit-transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+          transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+}
+
 .seven {
   background-color: gray;
 }
