@@ -1271,9 +1271,21 @@ main {
   position: relative;
   height: 90px;
   width: 140px;
-  background-color: #5c371e;
+  background-color: #6e4327;
   -webkit-transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
           transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+}
+
+.six .container .bed .bedframe::before {
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  content: "";
+  height: 100%;
+  width: 10px;
+  background-color: #815335;
+  -webkit-transform: skewY(-45deg);
+          transform: skewY(-45deg);
 }
 
 .seven {

@@ -1138,8 +1138,19 @@ main {
                 position: relative;
                 height: 90px;
                 width: 140px;
-                background-color: rgb(92, 55, 30);
+                background-color: rgb(110, 67, 39);
                 transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+
+                &::before {
+                    position: absolute;
+                    top: 5px;
+                    left: -10px;
+                    content: "";
+                    height: 100%;
+                    width: 10px;
+                    background-color: rgb(129, 83, 53);
+                    transform: skewY(-45deg);
+                }
             }
         }
     }
