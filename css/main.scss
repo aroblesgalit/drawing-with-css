@@ -1166,10 +1166,34 @@ main {
 
             .bedsheet {
                 position: absolute;
+                top: -1px;
+                left: 8px;
                 height: 86px;
-                width: 110px;
+                width: 100px;
                 background-color: rgb(147, 116, 221);
                 transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+
+                &::before {
+                    position: absolute;
+                    top: 6px;
+                    left: -12px;
+                    content: "";
+                    height: 100%;
+                    width: 12px;
+                    background-color: rgb(171, 140, 243);
+                    transform: skewY(-45deg);
+                }
+
+                &::after {
+                    position: absolute;
+                    bottom: -12px;
+                    right: 6px;
+                    content: "";
+                    height: 12px;
+                    width: 100%;
+                    background-color:rgb(110, 84, 172);
+                    transform: skewX(-45deg);
+                }
             }
         }
     }
