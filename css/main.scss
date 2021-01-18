@@ -991,24 +991,24 @@ main {
 
                 &::before {
                     position: absolute;
-                    left: -2px;
+                    left: -2.8px;
                     top: -6px;
                     content: "";
                     height: 6px;
-                    width: 150px;
+                    width: 103.5%;
                     background-color: #a5a5a5;
-                    transform: skewX(40deg);
+                    transform: skewX(42deg);
                 }
 
                 &::after {
                     position: absolute;
-                    top: -3px;
-                    left: -5px;
+                    top: -2.8px;
+                    left: -5.2px;
                     content: "";
-                    height: 151px;
-                    width: 5px;
+                    height: 100%;
+                    width: 5.2px;
                     background-color: #f2f2f2;
-                    transform: skewY(51deg);
+                    transform: skewY(48deg);
                 }
             }
 
@@ -1021,31 +1021,31 @@ main {
 
                 &::before {
                     position: absolute;
-                    left: -3px;
+                    left: 1px;
                     top: -6px;
                     content: "";
                     height: 6px;
-                    width: 156px;
+                    width: 101%;
                     background-color: #a5a5a5;
-                    transform: skewX(-40deg);
+                    transform: skewX(-42deg);
                 }
 
                 &::after {
                     position: absolute;
-                    right: -5.4px;
-                    top: -2.6px;
+                    right: -5.2px;
+                    top: -3px;
                     content: "";
-                    height: 150.5px;
-                    width: 5px;
+                    height: 100%;
+                    width: 5.2px;
                     background-color: #a5a5a5;
-                    transform: skewY(-51deg);
+                    transform: skewY(-48deg);
                 }
             }
         }
 
         .floor {
             position: absolute;
-            top: 88px;
+            top: 87.2px;
             height: 212px;
             width: 212px;
             background-color: #574f4b;
