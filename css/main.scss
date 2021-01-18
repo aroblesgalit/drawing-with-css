@@ -1226,6 +1226,16 @@ main {
                     }
                 }
             }
+
+            .mattress {
+                position: absolute;
+                left: 90px;
+                top: -26px;
+                height: 82px;
+                width: 30px;
+                background-color: rgb(238, 238, 238);
+                transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+            }
         }
     }
 }
