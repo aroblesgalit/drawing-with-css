@@ -1371,12 +1371,24 @@ main {
 .six .container .bed .mattress {
   position: absolute;
   left: 90px;
-  top: -26px;
+  top: -27px;
   height: 82px;
-  width: 30px;
+  width: 32px;
   background-color: #eeeeee;
   -webkit-transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
           transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+}
+
+.six .container .bed .mattress::after {
+  position: absolute;
+  bottom: -12px;
+  right: 6px;
+  content: "";
+  height: 12px;
+  width: 100%;
+  background-color: #b3b3b3;
+  -webkit-transform: skewX(-45deg);
+          transform: skewX(-45deg);
 }
 
 .seven {
