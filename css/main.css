@@ -1264,11 +1264,11 @@ main {
 .six .container .bed {
   position: absolute;
   top: 122px;
-  right: 60px;
+  right: 200px;
 }
 
 .six .container .bed .bedframe {
-  position: relative;
+  position: absolute;
   height: 90px;
   width: 140px;
   background-color: #503422;
@@ -1298,6 +1298,15 @@ main {
   background-color: #3d2617;
   -webkit-transform: skewX(-45deg);
           transform: skewX(-45deg);
+}
+
+.six .container .bed .bedsheet {
+  position: absolute;
+  height: 86px;
+  width: 110px;
+  background-color: #9374dd;
+  -webkit-transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
+          transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
 }
 
 .seven {

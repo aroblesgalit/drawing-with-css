@@ -1132,10 +1132,10 @@ main {
         .bed {
             position: absolute;
             top: 122px;
-            right: 60px;
+            right: 200px;
 
             .bedframe {
-                position: relative;
+                position: absolute;
                 height: 90px;
                 width: 140px;
                 background-color: rgb(80, 52, 34);
@@ -1162,6 +1162,14 @@ main {
                     background-color: rgb(61, 38, 23);
                     transform: skewX(-45deg);
                 }
+            }
+
+            .bedsheet {
+                position: absolute;
+                height: 86px;
+                width: 110px;
+                background-color: rgb(147, 116, 221);
+                transform: rotateX(54deg) rotateY(0deg) rotateZ(-45deg);
             }
         }
     }
