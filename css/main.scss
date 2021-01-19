@@ -1016,31 +1016,91 @@ main {
 
                 .window {
                     position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     height: 50%;
                     width: 50%;
                     background-color: rgb(53, 55, 63);
                     overflow: hidden;
 
-                    &::before {
+                    // &::before {
+                    //     position: absolute;
+                    //     right: 2.5px;
+                    //     bottom: 0;
+                    //     content: "";
+                    //     height: 6px;
+                    //     width: 100%;
+                    //     background-color: #a5a5a5;
+                    //     transform: skewX(42deg);
+                    //     box-shadow: 35.4px -39px 0 0 #a5a5a5;
+                    // }
+
+                    // &::after {
+                    //     position: absolute;
+                    //     top: -3px;
+                    //     right: 0;
+                    //     content: "";
+                    //     height: 100%;
+                    //     width: 5px;
+                    //     background-color: #d1d1d1;
+                    //     transform: skewY(48deg);
+                    // }
+
+                    .cross-v {
+                        position: absolute;
+                        height: 100%;
+                        width: 4px;
+                        background-color: #f2f2f2;
+                    }
+
+                    .cross-h {
+                        position: absolute;
+                        height: 4px;
+                        width: 100%;
+                        background-color: #f2f2f2;
+                    }
+
+                    .right-thickness-top {
+                        position: absolute;
+                        top: -3px;
+                        right: 0;
+                        height: 35.7px;
+                        width: 5px;
+                        background-color: #d1d1d1;
+                        transform: skewY(48deg);
+                        box-shadow: -39.5px 44px 0 0 #d1d1d1;
+                    }
+
+                    .right-thickness-bot {
+                        position: absolute;
+                        top: 36.3px;
+                        right: 0;
+                        height: 35.7px;
+                        width: 5.2px;
+                        background-color: #d1d1d1;
+                        transform: skewY(48deg);
+                        box-shadow: -39.5px 44px 0 0 #d1d1d1;
+                    }
+
+                    .bot-thickness-bot {
                         position: absolute;
                         right: 2.5px;
                         bottom: 0;
-                        content: "";
                         height: 6px;
                         width: 100%;
                         background-color: #a5a5a5;
                         transform: skewX(42deg);
                     }
 
-                    &::after {
+                    .bot-thickness-top {
                         position: absolute;
-                        top: -3px;
-                        right: 0;
-                        content: "";
-                        height: 100%;
-                        width: 5px;
-                        background-color: #d1d1d1;
-                        transform: skewY(48deg);
+                        right: 2.5px;
+                        bottom: 39.5px;
+                        height: 5.6px;
+                        width: 100%;
+                        background-color: #a5a5a5;
+                        transform: skewX(42deg);
                     }
                 }
             }
