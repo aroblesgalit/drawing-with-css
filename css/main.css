@@ -1172,6 +1172,30 @@ main {
   overflow: hidden;
 }
 
+.six .container .walls .left .window::before {
+  position: absolute;
+  right: 2.5px;
+  bottom: 0;
+  content: "";
+  height: 6px;
+  width: 100%;
+  background-color: #a5a5a5;
+  -webkit-transform: skewX(42deg);
+          transform: skewX(42deg);
+}
+
+.six .container .walls .left .window::after {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  content: "";
+  height: 100%;
+  width: 5px;
+  background-color: #d1d1d1;
+  -webkit-transform: skewY(48deg);
+          transform: skewY(48deg);
+}
+
 .six .container .walls .right {
   position: relative;
   height: 150px;
