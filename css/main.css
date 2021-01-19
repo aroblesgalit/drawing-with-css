@@ -1124,6 +1124,15 @@ main {
 
 .six .container .walls .left {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 150px;
   width: 150px;
   background-color: #f2f2f2;
@@ -1153,6 +1162,14 @@ main {
   background-color: #d1d1d1;
   -webkit-transform: skewY(48deg);
           transform: skewY(48deg);
+}
+
+.six .container .walls .left .window {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  background-color: #35373f;
+  overflow: hidden;
 }
 
 .six .container .walls .right {

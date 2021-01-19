@@ -984,6 +984,9 @@ main {
 
             .left {
                 position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 height: 150px;
                 width: 150px;
                 background-color: #f2f2f2;
@@ -1009,6 +1012,16 @@ main {
                     width: 5.2px;
                     background-color: #d1d1d1;
                     transform: skewY(48deg);
+                }
+
+                .window {
+                    position: relative;
+                    height: 50%;
+                    width: 50%;
+                    background-color: rgb(53, 55, 63);
+                    overflow: hidden;
+
+                    
                 }
             }
 
