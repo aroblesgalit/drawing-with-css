@@ -1276,6 +1276,13 @@ main {
           transform: skewY(-48deg);
 }
 
+.six .container .walls .right .shelves {
+  position: absolute;
+  height: 5px;
+  width: 60px;
+  background-color: #634530;
+}
+
 .six .container .floor {
   position: absolute;
   top: 87.2px;

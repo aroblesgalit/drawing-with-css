@@ -1024,29 +1024,6 @@ main {
                     background-color: rgb(53, 55, 63);
                     overflow: hidden;
 
-                    // &::before {
-                    //     position: absolute;
-                    //     right: 2.5px;
-                    //     bottom: 0;
-                    //     content: "";
-                    //     height: 6px;
-                    //     width: 100%;
-                    //     background-color: #a5a5a5;
-                    //     transform: skewX(42deg);
-                    //     box-shadow: 35.4px -39px 0 0 #a5a5a5;
-                    // }
-
-                    // &::after {
-                    //     position: absolute;
-                    //     top: -3px;
-                    //     right: 0;
-                    //     content: "";
-                    //     height: 100%;
-                    //     width: 5px;
-                    //     background-color: #d1d1d1;
-                    //     transform: skewY(48deg);
-                    // }
-
                     .cross-v {
                         position: absolute;
                         height: 100%;
@@ -1132,6 +1109,13 @@ main {
                     width: 5.2px;
                     background-color: #a5a5a5;
                     transform: skewY(-48deg);
+                }
+
+                .shelves {
+                    position: absolute;
+                    height: 5px;
+                    width: 60px;
+                    background-color:  rgb(99, 69, 48);
                 }
             }
         }
