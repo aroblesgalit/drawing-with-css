@@ -1113,9 +1113,22 @@ main {
 
                 .shelves {
                     position: absolute;
+                    top: 90px;
+                    left: -4px;
                     height: 5px;
                     width: 60px;
                     background-color:  rgb(99, 69, 48);
+
+                    &::before {
+                        position: absolute;
+                        top: -20.2px;
+                        left: 9px;
+                        content: "";
+                        width: 100%;
+                        height: 20px;
+                        background-color: rgb(80, 52, 34);
+                        transform: skewX(-41deg);
+                    }
                 }
             }
         }
