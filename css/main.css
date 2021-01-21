@@ -1396,6 +1396,29 @@ main {
   width: 30px;
   border-radius: 50%;
   background-color: #795fa3;
+  -webkit-box-shadow: -4px 4px 0 0 #8f77b6;
+          box-shadow: -4px 4px 0 0 #8f77b6;
+}
+
+.six .container .floor .night-stand::before {
+  position: absolute;
+  left: 9.6px;
+  top: -3.5px;
+  content: "";
+  height: 42.8px;
+  width: 5px;
+  background-color: #8f77b6;
+  -webkit-transform: skewY(-45deg) skewX(28deg);
+          transform: skewY(-45deg) skewX(28deg);
+}
+
+.six .container .floor .night-stand::after {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #795fa3;
 }
 
 .six .container .bed {

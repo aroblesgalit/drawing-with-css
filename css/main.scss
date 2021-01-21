@@ -1240,8 +1240,27 @@ main {
                 width: 30px;
                 border-radius: 50%;
                 background-color: rgb(121, 95, 163);
+                box-shadow: -4px 4px 0 0 rgb(143, 119, 182);
 
-                
+                &::before {
+                    position: absolute;
+                    left: 9.6px;
+                    top: -3.5px;
+                    content: "";
+                    height: 42.8px;
+                    width: 5px;
+                    background-color: rgb(143, 119, 182);
+                    transform: skewY(-45deg) skewX(28deg);
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 50%;
+                    background-color: rgb(121, 95, 163);
+                }
             }
         }
 
