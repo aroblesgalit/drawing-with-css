@@ -1283,6 +1283,8 @@ main {
   height: 5px;
   width: 60px;
   background-color: #634530;
+  -webkit-box-shadow: 70px 10px 0 0 #634530;
+          box-shadow: 70px 10px 0 0 #634530;
 }
 
 .six .container .walls .right .shelves::before {
@@ -1295,6 +1297,8 @@ main {
   background-color: #503422;
   -webkit-transform: skewX(-41deg);
           transform: skewX(-41deg);
+  -webkit-box-shadow: 79px 10px 0 0 #503422;
+          box-shadow: 79px 10px 0 0 #503422;
 }
 
 .six .container .walls .right .shelves::after {
@@ -1307,6 +1311,8 @@ main {
   background-color: #3d2617;
   -webkit-transform: skewY(-49deg);
           transform: skewY(-49deg);
+  -webkit-box-shadow: 70px 90.5px 0 0 #3d2617;
+          box-shadow: 70px 90.5px 0 0 #3d2617;
 }
 
 .six .container .floor {

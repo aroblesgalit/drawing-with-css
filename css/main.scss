@@ -1118,6 +1118,7 @@ main {
                     height: 5px;
                     width: 60px;
                     background-color:  rgb(99, 69, 48);
+                    box-shadow: 70px 10px 0 0 rgb(99, 69, 48);
 
                     &::before {
                         position: absolute;
@@ -1128,6 +1129,7 @@ main {
                         height: 20px;
                         background-color: rgb(80, 52, 34);
                         transform: skewX(-41deg);
+                        box-shadow: 79px 10px 0 0 rgb(80, 52, 34);
                     }
 
                     &::after {
@@ -1138,7 +1140,8 @@ main {
                         width: 17.4px;
                         height: 100%;
                         background-color: rgb(61, 38, 23);
-                        transform: skewY(-49deg)
+                        transform: skewY(-49deg);
+                        box-shadow: 70px 90.5px 0 0 rgb(61, 38, 23);
                     }
                 }
             }
