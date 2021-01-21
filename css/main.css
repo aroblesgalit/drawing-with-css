@@ -1390,8 +1390,12 @@ main {
 
 .six .container .floor .night-stand {
   position: absolute;
-  right: -20px;
-  top: -12px;
+  right: 6px;
+  top: -20px;
+}
+
+.six .container .floor .night-stand .top {
+  position: absolute;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -1400,19 +1404,19 @@ main {
           box-shadow: -4px 4px 0 0 #8f77b6;
 }
 
-.six .container .floor .night-stand::before {
+.six .container .floor .night-stand .top::before {
   position: absolute;
-  left: 9.6px;
-  top: -3.5px;
+  left: 10.7px;
+  top: -4.6px;
   content: "";
-  height: 42.8px;
+  height: 42.6px;
   width: 5px;
   background-color: #8f77b6;
   -webkit-transform: skewY(-45deg) skewX(28deg);
           transform: skewY(-45deg) skewX(28deg);
 }
 
-.six .container .floor .night-stand::after {
+.six .container .floor .night-stand .top::after {
   position: absolute;
   content: "";
   height: 30px;
