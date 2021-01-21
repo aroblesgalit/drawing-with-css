@@ -1388,6 +1388,16 @@ main {
           box-shadow: 26.5px 0 0 0 #657271, 53px 0 0 0 #657271, 79.5px 0 0 0 #657271, 106px 0 0 0 #657271, 132.5px 0 0 0 #657271, 159px 0 0 0 #657271, 185.5px 0 0 0 #657271;
 }
 
+.six .container .floor .night-stand {
+  position: absolute;
+  right: -20px;
+  top: -12px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #795fa3;
+}
+
 .six .container .bed {
   position: absolute;
   top: 122px;
