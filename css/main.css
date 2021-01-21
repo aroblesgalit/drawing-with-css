@@ -1425,6 +1425,17 @@ main {
   background-color: #795fa3;
 }
 
+.six .container .floor .night-stand .legs {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  height: 4px;
+  width: 20px;
+  background-color: #795fa3;
+  -webkit-transform: skewY(-40deg);
+          transform: skewY(-40deg);
+}
+
 .six .container .bed {
   position: absolute;
   top: 122px;
