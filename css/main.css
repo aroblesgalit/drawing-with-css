@@ -1428,7 +1428,11 @@ main {
 .six .container .floor .night-stand .legs {
   position: absolute;
   top: 30px;
-  right: 0;
+  right: 20px;
+}
+
+.six .container .floor .night-stand .legs .one {
+  position: absolute;
   height: 4px;
   width: 20px;
   background-color: #795fa3;
@@ -1436,7 +1440,7 @@ main {
           transform: skewY(-40deg);
 }
 
-.six .container .floor .night-stand .legs::before {
+.six .container .floor .night-stand .legs .one::before {
   position: absolute;
   top: 4px;
   right: -2px;
