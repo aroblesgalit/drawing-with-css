@@ -1299,6 +1299,17 @@ main {
                         width: 20px;
                         background-color: rgb(82, 61, 117);
                         transform: skewY(-55deg) skewX(28deg);
+
+                        &::before {
+                            position: absolute;
+                            top: 6px;
+                            right: -1px;
+                            content: "";
+                            height: 1px;
+                            width: 100%;
+                            background-color: rgb(121, 95, 163);
+                            transform: skewX(66deg);
+                        }
                     }
                 }
             }

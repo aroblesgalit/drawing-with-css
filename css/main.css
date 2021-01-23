@@ -1463,6 +1463,18 @@ main {
           transform: skewY(-55deg) skewX(28deg);
 }
 
+.six .container .floor .night-stand .legs .two::before {
+  position: absolute;
+  top: 6px;
+  right: -1px;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #795fa3;
+  -webkit-transform: skewX(66deg);
+          transform: skewX(66deg);
+}
+
 .six .container .bed {
   position: absolute;
   top: 122px;
