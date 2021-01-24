@@ -1606,7 +1606,24 @@ main {
 }
 
 .seven {
-  background-color: gray;
+  background-color: #dadfe6;
+}
+
+.seven .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.seven .container .left {
+  position: absolute;
+  height: 100px;
+  width: 60px;
+  background-color: #d32b2b;
 }
 
 .eight {

@@ -1438,7 +1438,20 @@ main {
 }
 
 .seven {
-    background-color: gray;
+    background-color: rgb(218, 223, 230);
+
+    .container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .left {
+            position: absolute;
+            height: 100px;
+            width: 60px;
+            background-color: rgb(211, 43, 43);
+        }
+    }
 }
 
 .eight {
