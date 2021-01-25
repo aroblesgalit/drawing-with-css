@@ -1468,7 +1468,23 @@ main {
             position: absolute;
             height: 6px;
             width: 60px;
+            border-radius: 3px;
             background-color: rgb(36, 31, 31);
+
+            &::before {
+                position: absolute;
+                top: -5px;
+                right: 6px;
+                content: "";
+                height: 3px;
+                width: 16px;
+                border-radius: 2px;
+                background-color: rgb(36, 31, 31);
+                transform: rotateZ(-45deg);
+                box-shadow: 
+                    5px 5px 0 0 rgb(36, 31, 31),
+                    10px 10px 0 0 rgb(36, 31, 31);
+            }
         }
     }
 }

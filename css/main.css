@@ -1644,7 +1644,23 @@ main {
   position: absolute;
   height: 6px;
   width: 60px;
+  border-radius: 3px;
   background-color: #241f1f;
+}
+
+.seven .container .arrow-back::before {
+  position: absolute;
+  top: -5px;
+  right: 6px;
+  content: "";
+  height: 3px;
+  width: 16px;
+  border-radius: 2px;
+  background-color: #241f1f;
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+  -webkit-box-shadow: 5px 5px 0 0 #241f1f, 10px 10px 0 0 #241f1f;
+          box-shadow: 5px 5px 0 0 #241f1f, 10px 10px 0 0 #241f1f;
 }
 
 .eight {
