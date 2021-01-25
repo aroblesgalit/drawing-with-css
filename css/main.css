@@ -1642,10 +1642,14 @@ main {
 
 .seven .container .arrow-back {
   position: absolute;
+  top: 20px;
+  right: -80px;
   height: 6px;
   width: 60px;
   border-radius: 3px;
   background-color: #241f1f;
+  -webkit-transform: rotateZ(-30deg);
+          transform: rotateZ(-30deg);
 }
 
 .seven .container .arrow-back::before {
