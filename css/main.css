@@ -1640,6 +1640,13 @@ main {
           transform: rotateZ(45deg);
 }
 
+.seven .container .arrow-back {
+  position: absolute;
+  height: 6px;
+  width: 60px;
+  background-color: #241f1f;
+}
+
 .eight {
   background-color: pink;
 }

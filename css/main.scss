@@ -1463,6 +1463,13 @@ main {
             left: -16px;
             transform: rotateZ(45deg);
         }
+
+        .arrow-back {
+            position: absolute;
+            height: 6px;
+            width: 60px;
+            background-color: rgb(36, 31, 31);
+        }
     }
 }
 
