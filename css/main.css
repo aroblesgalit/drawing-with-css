@@ -1684,12 +1684,26 @@ main {
 
 .seven .container .arrow-head {
   position: absolute;
+  top: 70px;
+  left: -70px;
   height: 6px;
   width: 60px;
   border-radius: 3px;
   background-color: #241f1f;
   -webkit-transform: rotateZ(-30deg);
           transform: rotateZ(-30deg);
+}
+
+.seven .container .arrow-head::before {
+  position: absolute;
+  top: -11px;
+  left: -20px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-right: 26px solid #241f1f;
 }
 
 .eight {

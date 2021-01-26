@@ -1507,11 +1507,25 @@ main {
 
         .arrow-head {
             position: absolute;
+            top: 70px;
+            left: -70px;
             height: 6px;
             width: 60px;
             border-radius: 3px;
             background-color: rgb(36, 31, 31);
             transform: rotateZ(-30deg);
+
+            &::before {
+                position: absolute;
+                top: -11px;
+                left: -20px;
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 14px solid transparent;
+                border-bottom: 14px solid transparent;
+                border-right: 26px solid rgb(36, 31, 31);
+            }
         }
     }
 }
