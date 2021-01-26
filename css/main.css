@@ -1617,6 +1617,8 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  -webkit-animation: float 2.5s ease-in-out infinite forwards;
+          animation: float 2.5s ease-in-out infinite forwards;
 }
 
 .seven .container .left,
@@ -1704,6 +1706,28 @@ main {
   border-top: 14px solid transparent;
   border-bottom: 14px solid transparent;
   border-right: 26px solid #241f1f;
+}
+
+@-webkit-keyframes float {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
 }
 
 .eight {

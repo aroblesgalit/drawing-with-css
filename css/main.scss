@@ -1444,6 +1444,7 @@ main {
         display: flex;
         justify-content: center;
         position: relative;
+        animation: float 2.5s ease-in-out infinite forwards;
 
         .left,
         .right {
@@ -1526,6 +1527,15 @@ main {
                 border-bottom: 14px solid transparent;
                 border-right: 26px solid rgb(36, 31, 31);
             }
+        }
+    }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-40px);
         }
     }
 }
