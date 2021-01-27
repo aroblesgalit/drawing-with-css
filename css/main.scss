@@ -1444,7 +1444,6 @@ main {
         display: flex;
         justify-content: center;
         position: relative;
-        // animation: float 2.5s ease-in-out infinite forwards;
 
         .heart {
             display: flex;
@@ -1549,12 +1548,31 @@ main {
 
         }
 
+        .shadow {
+            position: absolute;
+            top: 100px;
+            height: 16px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.1);
+            animation: shadowing 2.5s ease-in-out infinite forwards;
+        }
+
         @keyframes float {
             0%, 100% {
                 transform: translateY(0);
             }
             50% {
                 transform: translateY(-40px);
+            }
+        }
+
+        @keyframes shadowing {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(2);
             }
         }
     }

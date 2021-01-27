@@ -1733,6 +1733,17 @@ main {
   border-right: 26px solid #241f1f;
 }
 
+.seven .container .shadow {
+  position: absolute;
+  top: 100px;
+  height: 16px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-animation: shadowing 2.5s ease-in-out infinite forwards;
+          animation: shadowing 2.5s ease-in-out infinite forwards;
+}
+
 @-webkit-keyframes float {
   0%, 100% {
     -webkit-transform: translateY(0);
@@ -1752,6 +1763,28 @@ main {
   50% {
     -webkit-transform: translateY(-40px);
             transform: translateY(-40px);
+  }
+}
+
+@-webkit-keyframes shadowing {
+  0%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@keyframes shadowing {
+  0%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
   }
 }
 
