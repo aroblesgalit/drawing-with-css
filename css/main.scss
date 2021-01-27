@@ -1444,110 +1444,118 @@ main {
         display: flex;
         justify-content: center;
         position: relative;
-        animation: float 2.5s ease-in-out infinite forwards;
+        // animation: float 2.5s ease-in-out infinite forwards;
 
-        .halo {
-            position: absolute;
-            top: 20px;
-            left: -68px;
-            height: 8px;
-            width: 70px;
-            background: linear-gradient(90deg, rgba(194,155,24,1) 20%, rgba(255,206,38,1) 39%, rgba(194,155,24,1) 58%, rgba(241,205,82,1) 100%);
-            border-radius: 3px;
-            transform: rotateZ(-20deg);
-            box-shadow: 1px 3px 0 0 rgba(0, 0, 0, 0.2);
-        }
+        .heart {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            animation: float 2.5s ease-in-out infinite forwards;
 
-        .left,
-        .right {
-            position: absolute;
-            height: 100px;
-            width: 60px;
-            background-color: rgb(211, 43, 43);
-            border-radius: 30px 30px 0 0;
-        }
-
-        .left {
-            right: -16px;
-            transform: rotateZ(-45deg);
-        }
-
-        .right {
-            left: -16px;
-            transform: rotateZ(45deg);
-        }
-
-        .arrow-back {
-            position: absolute;
-            top: 20px;
-            right: -80px;
-            height: 6px;
-            width: 60px;
-            border-radius: 3px;
-            background-color: rgb(36, 31, 31);
-            transform: rotateZ(-30deg);
-
-            &::before {
+            .halo {
                 position: absolute;
-                top: -5px;
-                right: 6px;
-                content: "";
-                height: 3px;
-                width: 16px;
-                border-radius: 2px;
-                background-color: rgb(36, 31, 31);
+                top: 20px;
+                left: -68px;
+                height: 8px;
+                width: 70px;
+                background: linear-gradient(90deg, rgba(194,155,24,1) 20%, rgba(255,206,38,1) 39%, rgba(194,155,24,1) 58%, rgba(241,205,82,1) 100%);
+                border-radius: 3px;
+                transform: rotateZ(-20deg);
+                box-shadow: 1px 3px 0 0 rgba(0, 0, 0, 0.2);
+            }
+    
+            .left,
+            .right {
+                position: absolute;
+                height: 100px;
+                width: 60px;
+                background-color: rgb(211, 43, 43);
+                border-radius: 30px 30px 0 0;
+            }
+    
+            .left {
+                right: -16px;
                 transform: rotateZ(-45deg);
-                box-shadow: 
-                    5px 5px 0 0 rgb(36, 31, 31),
-                    10px 10px 0 0 rgb(36, 31, 31);
             }
-
-            &::after {
-                position: absolute;
-                bottom: -5px;
-                right: 6px;
-                content: "";
-                height: 3px;
-                width: 16px;
-                border-radius: 2px;
-                background-color: rgb(36, 31, 31);
+    
+            .right {
+                left: -16px;
                 transform: rotateZ(45deg);
-                box-shadow: 
-                    5px -5px 0 0 rgb(36, 31, 31),
-                    10px -10px 0 0 rgb(36, 31, 31);
             }
-        }
-
-        .arrow-head {
-            position: absolute;
-            top: 70px;
-            left: -70px;
-            height: 6px;
-            width: 60px;
-            border-radius: 3px;
-            background-color: rgb(36, 31, 31);
-            transform: rotateZ(-30deg);
-
-            &::before {
+    
+            .arrow-back {
                 position: absolute;
-                top: -11px;
-                left: -20px;
-                content: "";
-                width: 0;
-                height: 0;
-                border-top: 14px solid transparent;
-                border-bottom: 14px solid transparent;
-                border-right: 26px solid rgb(36, 31, 31);
+                top: 20px;
+                right: -80px;
+                height: 6px;
+                width: 60px;
+                border-radius: 3px;
+                background-color: rgb(36, 31, 31);
+                transform: rotateZ(-30deg);
+    
+                &::before {
+                    position: absolute;
+                    top: -5px;
+                    right: 6px;
+                    content: "";
+                    height: 3px;
+                    width: 16px;
+                    border-radius: 2px;
+                    background-color: rgb(36, 31, 31);
+                    transform: rotateZ(-45deg);
+                    box-shadow: 
+                        5px 5px 0 0 rgb(36, 31, 31),
+                        10px 10px 0 0 rgb(36, 31, 31);
+                }
+    
+                &::after {
+                    position: absolute;
+                    bottom: -5px;
+                    right: 6px;
+                    content: "";
+                    height: 3px;
+                    width: 16px;
+                    border-radius: 2px;
+                    background-color: rgb(36, 31, 31);
+                    transform: rotateZ(45deg);
+                    box-shadow: 
+                        5px -5px 0 0 rgb(36, 31, 31),
+                        10px -10px 0 0 rgb(36, 31, 31);
+                }
             }
-        }
-    }
+    
+            .arrow-head {
+                position: absolute;
+                top: 70px;
+                left: -70px;
+                height: 6px;
+                width: 60px;
+                border-radius: 3px;
+                background-color: rgb(36, 31, 31);
+                transform: rotateZ(-30deg);
+    
+                &::before {
+                    position: absolute;
+                    top: -11px;
+                    left: -20px;
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-top: 14px solid transparent;
+                    border-bottom: 14px solid transparent;
+                    border-right: 26px solid rgb(36, 31, 31);
+                }
+            }
 
-    @keyframes float {
-        0%, 100% {
-            transform: translateY(0);
         }
-        50% {
-            transform: translateY(-40px);
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-40px);
+            }
         }
     }
 }

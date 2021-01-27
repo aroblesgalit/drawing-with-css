@@ -1617,11 +1617,21 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+}
+
+.seven .container .heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
   -webkit-animation: float 2.5s ease-in-out infinite forwards;
           animation: float 2.5s ease-in-out infinite forwards;
 }
 
-.seven .container .halo {
+.seven .container .heart .halo {
   position: absolute;
   top: 20px;
   left: -68px;
@@ -1636,8 +1646,8 @@ main {
           box-shadow: 1px 3px 0 0 rgba(0, 0, 0, 0.2);
 }
 
-.seven .container .left,
-.seven .container .right {
+.seven .container .heart .left,
+.seven .container .heart .right {
   position: absolute;
   height: 100px;
   width: 60px;
@@ -1645,19 +1655,19 @@ main {
   border-radius: 30px 30px 0 0;
 }
 
-.seven .container .left {
+.seven .container .heart .left {
   right: -16px;
   -webkit-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
 
-.seven .container .right {
+.seven .container .heart .right {
   left: -16px;
   -webkit-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
 
-.seven .container .arrow-back {
+.seven .container .heart .arrow-back {
   position: absolute;
   top: 20px;
   right: -80px;
@@ -1669,7 +1679,7 @@ main {
           transform: rotateZ(-30deg);
 }
 
-.seven .container .arrow-back::before {
+.seven .container .heart .arrow-back::before {
   position: absolute;
   top: -5px;
   right: 6px;
@@ -1684,7 +1694,7 @@ main {
           box-shadow: 5px 5px 0 0 #241f1f, 10px 10px 0 0 #241f1f;
 }
 
-.seven .container .arrow-back::after {
+.seven .container .heart .arrow-back::after {
   position: absolute;
   bottom: -5px;
   right: 6px;
@@ -1699,7 +1709,7 @@ main {
           box-shadow: 5px -5px 0 0 #241f1f, 10px -10px 0 0 #241f1f;
 }
 
-.seven .container .arrow-head {
+.seven .container .heart .arrow-head {
   position: absolute;
   top: 70px;
   left: -70px;
@@ -1711,7 +1721,7 @@ main {
           transform: rotateZ(-30deg);
 }
 
-.seven .container .arrow-head::before {
+.seven .container .heart .arrow-head::before {
   position: absolute;
   top: -11px;
   left: -20px;
