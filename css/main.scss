@@ -1446,6 +1446,13 @@ main {
         position: relative;
         animation: float 2.5s ease-in-out infinite forwards;
 
+        .halo {
+            position: absolute;
+            height: 6px;
+            width: 100px;
+            background: linear-gradient(90deg, rgba(194,155,24,1) 20%, rgba(255,206,38,1) 39%, rgba(194,155,24,1) 58%, rgba(241,205,82,1) 100%);
+        }
+
         .left,
         .right {
             position: absolute;

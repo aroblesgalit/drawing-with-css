@@ -1621,6 +1621,14 @@ main {
           animation: float 2.5s ease-in-out infinite forwards;
 }
 
+.seven .container .halo {
+  position: absolute;
+  height: 6px;
+  width: 100px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #c29b18), color-stop(39%, #ffce26), color-stop(58%, #c29b18), to(#f1cd52));
+  background: linear-gradient(90deg, #c29b18 20%, #ffce26 39%, #c29b18 58%, #f1cd52 100%);
+}
+
 .seven .container .left,
 .seven .container .right {
   position: absolute;
