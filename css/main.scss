@@ -1554,7 +1554,9 @@ main {
             height: 16px;
             width: 100px;
             border-radius: 50%;
-            background-color: rgba(0, 0, 0, 0.1);
+            background-color: rgba(0, 0, 0, 0.5);
+            filter: blur(1px);
+            -webkit-filter: blur(1px);
             animation: shadowing 2.5s ease-in-out infinite forwards;
         }
 
@@ -1569,10 +1571,16 @@ main {
 
         @keyframes shadowing {
             0%, 100% {
-                transform: scale(1);
+                transform: scale(0.3);
+                background-color: rgba(0, 0, 0, 0.5);
+                filter: blur(1px);
+                -webkit-filter: blur(1px);
             }
             50% {
-                transform: scale(2);
+                transform: scale(0.8);
+                background-color: rgba(0, 0, 0, 0.2);
+                filter: blur(2px);
+                -webkit-filter: blur(2px);
             }
         }
     }
