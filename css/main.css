@@ -1804,5 +1804,28 @@ main {
 
 .eight {
   background-color: pink;
+  --red-dark: rgb(177, 35, 35);
+  --red-reg: rgb(235, 32, 32);
+  --red-med:  rgb(219, 35, 35);
+  --red-light:  rgb(245, 71, 71);
+  --black: rgb(46, 46, 46);
+  --gray-dark: rgb(66, 66, 66);
+  --gray-med: rgb(92, 92, 92);
+  --gray-light: rgb(112, 112, 112);
+  --white: #dfdfdf;
+}
+
+.eight .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.eight .container .head {
+  position: absolute;
 }
 /*# sourceMappingURL=main.css.map */
