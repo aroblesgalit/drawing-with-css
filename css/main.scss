@@ -1975,5 +1975,21 @@ main {
                 40px 50px 0 0 var(--black),
                 45px 50px 0 0 var(--black)
         }
+
+        .weapons {
+            position: absolute;
+            height: 5px;
+            width: 5px;
+            background-color: transparent;
+            box-shadow: 
+                // line 1
+                -35px 50px 0 0 var(--gray-light),
+                55px 50px 0 0 var(--gray-light),
+                // line 2
+                -35px 55px 0 0 var(--brown-dark),
+                -30px 55px 0 0 var(--brown-light),
+                50px 55px 0 0 var(--brown-light),
+                55px 55px 0 0 var(--brown-dark),
+        }
     }
 }
