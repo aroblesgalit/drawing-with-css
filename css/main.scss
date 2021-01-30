@@ -1592,10 +1592,11 @@ main {
     --red-med:  rgb(192, 47, 47);
     --red-reg: rgb(218, 56, 56);
     --red-light:  rgb(253, 91, 91);
-    --black: rgb(46, 46, 46);
+    --black: rgb(34, 34, 34);
     --gray-dark: rgb(51, 51, 51);
     --gray-med: rgb(59, 59, 59);
     --gray-light: rgb(75, 75, 75);
+    --gray-lighter: rgb(88, 88, 88);
     --white: #dfdfdf;
     --brown-dark: rgb(99, 66, 51);
     --brown-light: rgb(105, 79, 67);
@@ -1818,6 +1819,86 @@ main {
                 10px 75px 0 0 var(--black),
                 15px 75px 0 0 var(--black),
                 20px 75px 0 0 var(--black)
+        }
+
+        .body {
+            position: absolute;
+            top: 75px;
+            left: -17.5px;
+            height: 5px;
+            width: 5px;
+            background-color: var(--black);
+            box-shadow: 
+                // line 1
+                5px 0 0 0 var(--gray-med),
+                10px 0 0 0 var(--gray-med),
+                40px 0 0 0 var(--gray-med),
+                45px 0 0 0 var(--gray-med),
+                50px 0 0 0 var(--black),
+                // line 2
+                -5px 5px 0 0 var(--black),
+                0 5px 0 0 var(--gray-med),
+                5px 5px 0 0 var(--gray-light),
+                10px 5px 0 0 var(--gray-lighter),
+                15px 5px 0 0 var(--gray-lighter),
+                20px 5px 0 0 var(--red-dark),
+                25px 5px 0 0 var(--red-dark),
+                30px 5px 0 0 var(--red-dark),
+                35px 5px 0 0 var(--gray-lighter),
+                40px 5px 0 0 var(--gray-lighter),
+                45px 5px 0 0 var(--gray-light),
+                50px 5px 0 0 var(--gray-med),
+                55px 5px 0 0 var(--black),
+                // line 3
+                -10px 10px 0 0 var(--black),
+                -5px 10px 0 0 var(--red-reg),
+                0 10px 0 0 var(--gray-med),
+                5px 10px 0 0 var(--gray-med),
+                10px 10px 0 0 var(--gray-lighter),
+                15px 10px 0 0 var(--red-reg),
+                20px 10px 0 0 var(--red-med),
+                25px 10px 0 0 var(--red-med),
+                30px 10px 0 0 var(--red-med),
+                35px 10px 0 0 var(--red-reg),
+                40px 10px 0 0 var(--gray-lighter),
+                45px 10px 0 0 var(--gray-med),
+                50px 10px 0 0 var(--gray-med),
+                55px 10px 0 0 var(--red-reg),
+                60px 10px 0 0 var(--black),
+                // line 4
+                -10px 15px 0 0 var(--black),
+                -5px 15px 0 0 var(--red-reg),
+                0 15px 0 0 var(--red-reg),
+                5px 15px 0 0 var(--black),
+                10px 15px 0 0 var(--gray-light),
+                15px 15px 0 0 var(--red-reg),
+                20px 15px 0 0 var(--red-reg),
+                25px 15px 0 0 var(--red-reg),
+                30px 15px 0 0 var(--red-reg),
+                35px 15px 0 0 var(--red-reg),
+                40px 15px 0 0 var(--gray-light),
+                45px 15px 0 0 var(--black),
+                50px 15px 0 0 var(--red-reg),
+                55px 15px 0 0 var(--red-reg),
+                60px 15px 0 0 var(--black),
+                // line 5
+                -15px 20px 0 0 var(--red-dark),
+                -10px 20px 0 0 var(--red-reg),
+                -5px 20px 0 0 var(--gray-med),
+                0 20px 0 0 var(--red-reg),
+                5px 20px 0 0 var(--black),
+                10px 20px 0 0 var(--gray-med),
+                15px 20px 0 0 var(--gray-light),
+                20px 20px 0 0 var(--red-med),
+                25px 20px 0 0 var(--red-med),
+                30px 20px 0 0 var(--red-med),
+                35px 20px 0 0 var(--gray-light),
+                40px 20px 0 0 var(--gray-med),
+                45px 20px 0 0 var(--black),
+                50px 20px 0 0 var(--red-reg),
+                55px 20px 0 0 var(--gray-med),
+                60px 20px 0 0 var(--red-reg),
+                65px 20px 0 0 var(--red-dark),
         }
     }
 }
