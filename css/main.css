@@ -1805,8 +1805,8 @@ main {
 .eight {
   background-color: pink;
   --red-dark: rgb(177, 35, 35);
-  --red-reg: rgb(235, 32, 32);
-  --red-med:  rgb(219, 35, 35);
+  --red-med:  rgb(192, 47, 47);
+  --red-reg: rgb(218, 56, 56);
   --red-light:  rgb(245, 71, 71);
   --black: rgb(46, 46, 46);
   --gray-dark: rgb(66, 66, 66);
@@ -1829,5 +1829,10 @@ main {
 
 .eight .container .head {
   position: absolute;
+  height: 5px;
+  width: 5px;
+  background-color: var(--red-dark);
+  -webkit-box-shadow: 5px 0 0 0 var(--red-dark), 10px 0 0 0 var(--red-dark), 15px 0 0 0 var(--red-dark), 20px 0 0 0 var(--red-dark), -10px 5px 0 0 var(--red-dark), -5px 5px 0 0 var(--red-dark), 0 5px 0 0 var(--red-med), 5px 5px 0 0 var(--red-med), 10px 5px 0 0 var(--red-med), 15px 5px 0 0 var(--red-med), 20px 5px 0 0 var(--red-med), 25px 5px 0 0 var(--red-dark), 30px 5px 0 0 var(--red-dark), -15px 10px 0 0 var(--red-dark), -10px 10px 0 0 var(--red-med), -5px 10px 0 0 var(--red-reg), 0 10px 0 0 var(--red-reg), 5px 10px 0 0 var(--red-reg), 10px 10px 0 0 var(--red-reg), 15px 10px 0 0 var(--red-reg), 20px 10px 0 0 var(--red-reg), 25px 10px 0 0 var(--red-reg), 30px 10px 0 0 var(--red-med), 35px 10px 0 0 var(--red-dark), -20px 15px 0 0 var(--red-dark), -15px 15px 0 0 var(--red-reg), -10px 15px 0 0 var(--red-reg), -5px 15px 0 0 var(--red-reg), 0 15px 0 0 var(--red-light), 5px 15px 0 0 var(--red-light), 10px 15px 0 0 var(--red-reg), 15px 15px 0 0 var(--red-reg), 20px 15px 0 0 var(--red-reg), 25px 15px 0 0 var(--red-reg), 30px 15px 0 0 var(--red-reg), 35px 15px 0 0 var(--red-reg), 40px 15px 0 0 var(--red-dark), -20px 20px 0 0 var(--red-dark), -15px 20px 0 0 var(--red-reg), -10px 20px 0 0 var(--red-reg), -5px 20px 0 0 var(--red-reg), 0 20px 0 0 var(--red-reg), 5px 20px 0 0 var(--red-reg), 10px 20px 0 0 var(--red-reg), 15px 20px 0 0 var(--red-reg), 20px 20px 0 0 var(--red-reg), 25px 20px 0 0 var(--red-reg), 30px 20px 0 0 var(--red-reg), 35px 20px 0 0 var(--red-reg), 40px 20px 0 0 var(--red-dark);
+          box-shadow: 5px 0 0 0 var(--red-dark), 10px 0 0 0 var(--red-dark), 15px 0 0 0 var(--red-dark), 20px 0 0 0 var(--red-dark), -10px 5px 0 0 var(--red-dark), -5px 5px 0 0 var(--red-dark), 0 5px 0 0 var(--red-med), 5px 5px 0 0 var(--red-med), 10px 5px 0 0 var(--red-med), 15px 5px 0 0 var(--red-med), 20px 5px 0 0 var(--red-med), 25px 5px 0 0 var(--red-dark), 30px 5px 0 0 var(--red-dark), -15px 10px 0 0 var(--red-dark), -10px 10px 0 0 var(--red-med), -5px 10px 0 0 var(--red-reg), 0 10px 0 0 var(--red-reg), 5px 10px 0 0 var(--red-reg), 10px 10px 0 0 var(--red-reg), 15px 10px 0 0 var(--red-reg), 20px 10px 0 0 var(--red-reg), 25px 10px 0 0 var(--red-reg), 30px 10px 0 0 var(--red-med), 35px 10px 0 0 var(--red-dark), -20px 15px 0 0 var(--red-dark), -15px 15px 0 0 var(--red-reg), -10px 15px 0 0 var(--red-reg), -5px 15px 0 0 var(--red-reg), 0 15px 0 0 var(--red-light), 5px 15px 0 0 var(--red-light), 10px 15px 0 0 var(--red-reg), 15px 15px 0 0 var(--red-reg), 20px 15px 0 0 var(--red-reg), 25px 15px 0 0 var(--red-reg), 30px 15px 0 0 var(--red-reg), 35px 15px 0 0 var(--red-reg), 40px 15px 0 0 var(--red-dark), -20px 20px 0 0 var(--red-dark), -15px 20px 0 0 var(--red-reg), -10px 20px 0 0 var(--red-reg), -5px 20px 0 0 var(--red-reg), 0 20px 0 0 var(--red-reg), 5px 20px 0 0 var(--red-reg), 10px 20px 0 0 var(--red-reg), 15px 20px 0 0 var(--red-reg), 20px 20px 0 0 var(--red-reg), 25px 20px 0 0 var(--red-reg), 30px 20px 0 0 var(--red-reg), 35px 20px 0 0 var(--red-reg), 40px 20px 0 0 var(--red-dark);
 }
 /*# sourceMappingURL=main.css.map */
