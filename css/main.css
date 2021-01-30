@@ -1813,6 +1813,8 @@ main {
   --gray-med: rgb(92, 92, 92);
   --gray-light: rgb(112, 112, 112);
   --white: #dfdfdf;
+  --brown-dark: rgb(99, 66, 51);
+  --brown-light: rgb(105, 79, 67);
 }
 
 .eight .container {
