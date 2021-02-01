@@ -1599,7 +1599,7 @@ main {
     --gray-lighter: rgb(88, 88, 88);
     --white: #dfdfdf;
     --brown-dark: rgb(99, 66, 51);
-    --brown-light: rgb(105, 79, 67);
+    --brown-light: rgb(117, 90, 77);
 
     .container {
         display: flex;
@@ -1990,6 +1990,24 @@ main {
                 -30px 55px 0 0 var(--brown-light),
                 50px 55px 0 0 var(--brown-light),
                 55px 55px 0 0 var(--brown-dark),
+                // line 3
+                -30px 60px 0 0 var(--brown-dark),
+                -25px 60px 0 0 var(--brown-light),
+                45px 60px 0 0 var(--brown-light),
+                50px 60px 0 0 var(--brown-dark),
+                // line 4
+                -25px 65px 0 0 var(--brown-dark),
+                -20px 65px 0 0 var(--brown-light),
+                40px 65px 0 0 var(--brown-light),
+                45px 65px 0 0 var(--brown-dark),
+                // line 5
+                -20px 70px 0 0 var(--brown-dark),
+                -15px 70px 0 0 var(--gray-lighter),
+                35px 70px 0 0 var(--gray-lighter),
+                40px 70px 0 0 var(--brown-dark),
+                // line 6
+                -20px 75px 0 0 var(--gray-lighter),
+                40px 75px 0 0 var(--gray-lighter);
         }
     }
 }
