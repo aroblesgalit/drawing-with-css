@@ -2011,3 +2011,71 @@ main {
         }
     }
 }
+
+.popup {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .module {
+        position: relative;
+        background-color: #f2f2f2;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 0 0 0.15;
+        text-align: center;
+        width: 400px;
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1px;
+            background-color: rgb(0, 87, 128);
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 6px;
+
+            &:hover {
+                background-color: rgb(1, 112, 163);
+            }
+        }
+
+        .btn-close {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 10px;
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            background-color: rgb(212, 67, 67);
+
+            &:hover {
+                background-color: rgb(233, 91, 91);
+            }
+        }
+    }
+}

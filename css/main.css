@@ -1856,4 +1856,85 @@ main {
   -webkit-box-shadow: -35px 50px 0 0 var(--gray-light), 55px 50px 0 0 var(--gray-light), -35px 55px 0 0 var(--brown-dark), -30px 55px 0 0 var(--brown-light), 50px 55px 0 0 var(--brown-light), 55px 55px 0 0 var(--brown-dark), -30px 60px 0 0 var(--brown-dark), -25px 60px 0 0 var(--brown-light), 45px 60px 0 0 var(--brown-light), 50px 60px 0 0 var(--brown-dark), -25px 65px 0 0 var(--brown-dark), -20px 65px 0 0 var(--brown-light), 40px 65px 0 0 var(--brown-light), 45px 65px 0 0 var(--brown-dark), -20px 70px 0 0 var(--brown-dark), -15px 70px 0 0 var(--gray-lighter), 35px 70px 0 0 var(--gray-lighter), 40px 70px 0 0 var(--brown-dark), -20px 75px 0 0 var(--gray-lighter), 40px 75px 0 0 var(--gray-lighter);
           box-shadow: -35px 50px 0 0 var(--gray-light), 55px 50px 0 0 var(--gray-light), -35px 55px 0 0 var(--brown-dark), -30px 55px 0 0 var(--brown-light), 50px 55px 0 0 var(--brown-light), 55px 55px 0 0 var(--brown-dark), -30px 60px 0 0 var(--brown-dark), -25px 60px 0 0 var(--brown-light), 45px 60px 0 0 var(--brown-light), 50px 60px 0 0 var(--brown-dark), -25px 65px 0 0 var(--brown-dark), -20px 65px 0 0 var(--brown-light), 40px 65px 0 0 var(--brown-light), 45px 65px 0 0 var(--brown-dark), -20px 70px 0 0 var(--brown-dark), -15px 70px 0 0 var(--gray-lighter), 35px 70px 0 0 var(--gray-lighter), 40px 70px 0 0 var(--brown-dark), -20px 75px 0 0 var(--gray-lighter), 40px 75px 0 0 var(--gray-lighter);
 }
+
+.popup {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup .module {
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px 0 0 0.15;
+          box-shadow: 2px 4px 0 0 0.15;
+  text-align: center;
+  width: 400px;
+}
+
+.popup .module h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.popup .module p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+.popup .module a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  background-color: #005780;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.popup .module a:hover {
+  background-color: #0170a3;
+}
+
+.popup .module .btn-close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #d44343;
+}
+
+.popup .module .btn-close:hover {
+  background-color: #e95b5b;
+}
 /*# sourceMappingURL=main.css.map */
