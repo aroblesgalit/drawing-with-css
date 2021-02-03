@@ -179,7 +179,15 @@
     <script>
         $(document).ready(function() {
             
-            $('.popup').addClass('show');
+            const popup = $('.popup');
+            // Show popup
+            popup.addClass('show');
+
+            // Close popup
+            $('.btn-close').click(() => {
+                popup.removeClass('show');
+                popup.addClass('hide');
+            });
 
         });
     </script>
