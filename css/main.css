@@ -1937,4 +1937,8 @@ main {
 .popup .module .btn-close:hover {
   background-color: #e95b5b;
 }
+
+.hide {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
