@@ -2013,6 +2013,9 @@ main {
 }
 
 .popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -2020,9 +2023,8 @@ main {
     right: 0;
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    opacity: 0;
+    transition: all 1s ease-in-out 3s;
 
     .module {
         position: relative;
@@ -2082,4 +2084,8 @@ main {
 
 .hide {
     display: none;
+}
+
+.show {
+    opacity: 1;
 }

@@ -1858,13 +1858,6 @@ main {
 }
 
 .popup {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 5;
-  background-color: rgba(0, 0, 0, 0.3);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1874,6 +1867,16 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out 3s;
+  transition: all 1s ease-in-out 3s;
 }
 
 .popup .module {
@@ -1940,5 +1943,9 @@ main {
 
 .hide {
   display: none;
+}
+
+.show {
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
