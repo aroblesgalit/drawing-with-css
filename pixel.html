@@ -28,5 +28,17 @@
             <div class="label"></div>
         </div>
     </main>
+
+    <script>
+        $(document).ready(function() {
+            
+            const card = $('.art');
+            for (i = 0; i < 784; i++) {
+                card.append('<div class="pixel"></div>')
+            }
+            console.log(card[0])
+
+        });
+    </script>
 </body>
 </html>
