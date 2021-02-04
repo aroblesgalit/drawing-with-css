@@ -1948,4 +1948,16 @@ main {
 .show {
   opacity: 1;
 }
+
+#pixel-art-header {
+  width: 100%;
+  background-color: #005780;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
