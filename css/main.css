@@ -2023,7 +2023,7 @@ main {
   color: #293e47;
 }
 
-#pixel-art-main .card #stitch .pixel:nth-child(89) {
+#pixel-art-main .card #stitch .pixel:nth-child(88), #pixel-art-main .card #stitch .pixel:nth-child(110), #pixel-art-main .card #stitch .pixel:nth-child(117), #pixel-art-main .card #stitch .pixel:nth-child(137), #pixel-art-main .card #stitch .pixel:nth-child(145), #pixel-art-main .card #stitch .pixel:nth-child(165), #pixel-art-main .card #stitch .pixel:nth-child(174), #pixel-art-main .card #stitch .pixel:nth-child(192), #pixel-art-main .card #stitch .pixel:nth-child(202), #pixel-art-main .card #stitch .pixel:nth-child(220), #pixel-art-main .card #stitch .pixel:nth-child(231), #pixel-art-main .card #stitch .pixel:nth-child(247), #pixel-art-main .card #stitch .pixel:nth-child(259), #pixel-art-main .card #stitch .pixel:nth-child(275), #pixel-art-main .card #stitch .pixel:nth-child(287), #pixel-art-main .card #stitch .pixel:nth-child(303) {
   background-color: #3b50af;
 }
 /*# sourceMappingURL=main.css.map */
