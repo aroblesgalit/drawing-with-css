@@ -20,8 +20,8 @@
     </header>
     <main id='pixel-art-main'>
         <div class="card">
-            <div class="art"></div>
-            <p class="label">Name</p>
+            <div class="art" id="stitch"></div>
+            <p class="label">Stitch</p>
         </div>
         <div class="card">
             <div class="art"></div>
@@ -34,7 +34,7 @@
             
             const card = $('.art');
             for (i = 0; i < 784; i++) {
-                card.append('<div class="pixel"></div>')
+                card.append('<div class="pixel">' + (i+1) +'</div>')
             }
             console.log(card[0])
 

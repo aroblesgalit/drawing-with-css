@@ -2135,7 +2135,9 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                border: 1px solid #c0c0c0;
+                border: 0.1px solid #c0c0c0;
+                font-size: 2px;
+                color: #c0c0c0;
             }
         }
 
@@ -2144,6 +2146,12 @@ main {
             font-family: Arial, Helvetica, sans-serif;
             font-weight: lighter;
             color: rgb(41, 62, 71);
+        }
+
+        #stitch {
+            .pixel:nth-child(89) {
+                background-color: rgb(59, 80, 175);
+            }
         }
     }
 }
