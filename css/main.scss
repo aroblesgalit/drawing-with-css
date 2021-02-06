@@ -2355,6 +2355,13 @@ main {
                 &:nth-child(387) {
                     background-color: $lb;
                 }
+
+                &:nth-child(171),
+                &:nth-child(251),
+                &:nth-child(374),
+                &:nth-child(384) {
+                    background-color: $w;
+                }
             }
         }
     }
