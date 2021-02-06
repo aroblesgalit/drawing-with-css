@@ -2315,6 +2315,24 @@ main {
                 &:nth-child(389) {
                     background-color: $p;
                 }
+
+                &:nth-child(289),
+                &:nth-child(301),
+                &:nth-child(316),
+                &:nth-child(318),
+                &:nth-child(328),
+                &:nth-child(330),
+                &:nth-child(343),
+                &:nth-child(343),
+                &:nth-child(347),
+                &:nth-child(355),
+                &:nth-child(359),
+                &:nth-child(371),
+                &:nth-child(376),
+                &:nth-child(382),
+                &:nth-child(387) {
+                    background-color: $lb;
+                }
             }
         }
     }
