@@ -2206,6 +2206,22 @@ main {
                 &:nth-child(302) {
                     background-color: $bk;
                 }
+
+                &:nth-child(115),
+                &:nth-child(116),
+                &:nth-child(138),
+                &:nth-child(139),
+                &:nth-child(143),
+                &:nth-child(144),
+                &:nth-child(166),
+                &:nth-child(167),
+                &:nth-child(172),
+                &:nth-child(173),
+                &:nth-child(193),
+                &:nth-child(194),
+                &:nth-child(195) {
+                    background-color: $p;
+                }
             }
         }
     }
