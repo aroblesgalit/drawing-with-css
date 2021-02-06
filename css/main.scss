@@ -2435,7 +2435,9 @@ main {
                 &:nth-child(171),
                 &:nth-child(251),
                 &:nth-child(374),
-                &:nth-child(384) {
+                &:nth-child(384),
+                &:nth-child(429),
+                &:nth-child(441) {
                     background-color: $w;
                 }
             }
