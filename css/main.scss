@@ -2174,6 +2174,15 @@ main {
                 &:nth-child(303) {
                     background-color: $b;
                 }
+
+                &:nth-child(89),
+                &:nth-child(109),
+                &:nth-child(118),
+                &:nth-child(136),
+                &:nth-child(146),
+                &:nth-child(164) {
+                    background-color: $bk;
+                }
             }
         }
     }
