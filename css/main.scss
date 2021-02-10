@@ -2573,6 +2573,44 @@ main {
             $yo: rgb(247, 171, 73);
             $o: rgb(218, 133, 23);
             
+            .pixel {
+                &:nth-child(50),
+                &:nth-child(51),
+                &:nth-child(52),
+                &:nth-child(63),
+                &:nth-child(77),
+                &:nth-child(79),
+                &:nth-child(90),
+                &:nth-child(91),
+                &:nth-child(103),
+                &:nth-child(104),
+                &:nth-child(106),
+                &:nth-child(117),
+                &:nth-child(119),
+                &:nth-child(130),
+                &:nth-child(133),
+                &:nth-child(145),
+                &:nth-child(147),
+                &:nth-child(157),
+                &:nth-child(161) {
+                    background-color: $bk;
+                }
+
+                &:nth-child(78),
+                &:nth-child(105),
+                &:nth-child(131),
+                &:nth-child(132),
+                &:nth-child(158),
+                &:nth-child(159),
+                &:nth-child(160) {
+                    background-color: $yo;
+                }
+
+                &:nth-child(118),
+                &:nth-child(146) {
+                    background-color: $o;
+                }
+            }
         }
     }
 }
