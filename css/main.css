@@ -2011,6 +2011,7 @@ main {
 }
 
 #pixel-art-main .card .art .pixel {
+  border: 0.1px solid #c0c0c0;
   font-size: 2px;
   color: #c0c0c0;
 }

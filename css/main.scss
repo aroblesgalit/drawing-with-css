@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                // border: 0.1px solid #c0c0c0;
+                border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -2559,6 +2559,20 @@ main {
                     background-color: $w;
                 }
             }
+        }
+
+        #patamon {
+            $w: #f2f2f2;
+            $t: rgb(236, 218, 183);
+            $dt: rgb(207, 187, 145);
+            $bg: rgb(59, 131, 127);
+            $dbg: rgb(49, 104, 101);
+            $lbg: rgb(81, 163, 159);
+            $lrbg: rgb(132, 204, 200);
+            $bk: rgb(33, 33, 36);
+            $yo: rgb(247, 171, 73);
+            $o: rgb(218, 133, 23);
+            
         }
     }
 }
