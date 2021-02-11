@@ -2592,7 +2592,30 @@ main {
                 &:nth-child(145),
                 &:nth-child(147),
                 &:nth-child(157),
-                &:nth-child(161) {
+                &:nth-child(161),
+                &:nth-child(172),
+                &:nth-child(175),
+                &:nth-child(184),
+                &:nth-child(188),
+                &:nth-child(200),
+                &:nth-child(203),
+                &:nth-child(211),
+                &:nth-child(216),
+                &:nth-child(228),
+                &:nth-child(232),
+                &:nth-child(239),
+                &:nth-child(244),
+                &:nth-child(256),
+                &:nth-child(261),
+                &:nth-child(262),
+                &:nth-child(267),
+                &:nth-child(273),
+                &:nth-child(284),
+                &:nth-child(290),
+                &:nth-child(294),
+                &:nth-child(299),
+                &:nth-child(300),
+                &:nth-child(301) {
                     background-color: $bk;
                 }
 
@@ -2602,12 +2625,48 @@ main {
                 &:nth-child(132),
                 &:nth-child(158),
                 &:nth-child(159),
-                &:nth-child(160) {
+                &:nth-child(160),
+                &:nth-child(173),
+                &:nth-child(185),
+                &:nth-child(186),
+                &:nth-child(201),
+                &:nth-child(212),
+                &:nth-child(213),
+                &:nth-child(229),
+                &:nth-child(240),
+                &:nth-child(241),
+                &:nth-child(242),
+                &:nth-child(257),
+                &:nth-child(258),
+                &:nth-child(268),
+                &:nth-child(269),
+                &:nth-child(270),
+                &:nth-child(271),
+                &:nth-child(272),
+                &:nth-child(285),
+                &:nth-child(286),
+                &:nth-child(287),
+                &:nth-child(288),
+                &:nth-child(295),
+                &:nth-child(296) {
                     background-color: $yo;
                 }
 
                 &:nth-child(118),
-                &:nth-child(146) {
+                &:nth-child(146),
+                &:nth-child(174),
+                &:nth-child(187),
+                &:nth-child(202),
+                &:nth-child(214),
+                &:nth-child(215),
+                &:nth-child(230),
+                &:nth-child(231),
+                &:nth-child(243),
+                &:nth-child(259),
+                &:nth-child(260),
+                &:nth-child(289),
+                &:nth-child(297),
+                &:nth-child(298) {
                     background-color: $o;
                 }
             }
