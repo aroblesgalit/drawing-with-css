@@ -2563,8 +2563,10 @@ main {
 
         #patamon {
             $w: #f2f2f2;
-            $t: rgb(236, 218, 183);
-            $dt: rgb(207, 187, 145);
+            $t: rgb(255, 246, 228);
+            $dt: rgb(240, 224, 187);
+            $p: rgb(253, 203, 211);
+            $dp: rgb(170, 103, 114);
             $bg: rgb(59, 131, 127);
             $dbg: rgb(49, 104, 101);
             $lbg: rgb(81, 163, 159);
@@ -2640,8 +2642,12 @@ main {
                 &:nth-child(427),
                 &:nth-child(440),
                 &:nth-child(455),
+                &:nth-child(461),
+                &:nth-child(462),
                 &:nth-child(468),
                 &:nth-child(483),
+                &:nth-child(488),
+                &:nth-child(491),
                 &:nth-child(496),
                 &:nth-child(510),
                 &:nth-child(524),
@@ -2711,7 +2717,29 @@ main {
                 &:nth-child(435),
                 &:nth-child(436),
                 &:nth-child(437),
-                &:nth-child(438) {
+                &:nth-child(438),
+                &:nth-child(456),
+                &:nth-child(457),
+                &:nth-child(458),
+                &:nth-child(459),
+                &:nth-child(460),
+                &:nth-child(463),
+                &:nth-child(464),
+                &:nth-child(465),
+                &:nth-child(466),
+                &:nth-child(484),
+                &:nth-child(485),
+                &:nth-child(486),
+                &:nth-child(487),
+                &:nth-child(492),
+                &:nth-child(493),
+                &:nth-child(494),
+                &:nth-child(495),
+                &:nth-child(515),
+                &:nth-child(519),
+                &:nth-child(520),
+                &:nth-child(521),
+                &:nth-child(522) {
                     background-color: $yo;
                 }
 
@@ -2737,9 +2765,75 @@ main {
                 &:nth-child(372),
                 &:nth-child(381),
                 &:nth-child(410),
-                &:nth-child(439) {
+                &:nth-child(439),
+                &:nth-child(467),
+                &:nth-child(511),
+                &:nth-child(544),
+                &:nth-child(545),
+                &:nth-child(546),
+                &:nth-child(547) {
                     background-color: $o;
                 }
+
+                &:nth-child(489) {
+                    background-color: $w;
+                }
+
+                &:nth-child(490) {
+                    background-color: $lrbg;
+                }
+
+                &:nth-child(516) {
+                    background-color: $dbg;
+                }
+
+                &:nth-child(517) {
+                    background-color: $bg;
+                }
+
+                &:nth-child(518) {
+                    background-color: $lbg;
+                }
+
+                &:nth-child(512),
+                &:nth-child(513),
+                &:nth-child(514),
+                &:nth-child(523),
+                &:nth-child(540),
+                &:nth-child(543),
+                &:nth-child(548),
+                &:nth-child(549),
+                &:nth-child(550),
+                &:nth-child(551),
+                &:nth-child(569),
+                &:nth-child(571),
+                &:nth-child(572),
+                &:nth-child(573),
+                &:nth-child(574),
+                &:nth-child(575),
+                &:nth-child(576),
+                &:nth-child(577),
+                &:nth-child(578) {
+                    background-color: $t;
+                }
+
+                &:nth-child(539),
+                &:nth-child(552),
+                &:nth-child(568),
+                &:nth-child(579),
+                &:nth-child(580) {
+                    background-color: $dt;
+                }
+
+                &:nth-child(570) {
+                    background-color: $p;
+                }
+
+                &:nth-child(541),
+                &:nth-child(542) {
+                    background-color: $dp;
+                }
+                
             }
         }
     }
