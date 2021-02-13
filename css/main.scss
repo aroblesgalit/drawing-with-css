@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                // border: 0.1px solid #c0c0c0;
+                border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -2893,6 +2893,23 @@ main {
                     background-color: $g;
                 }
             }
+        }
+
+        #spiderman {
+            $b: rgb(147, 223, 241);
+            $lb: rgb(178, 230, 241);
+            $lrb: rgb(207, 237, 243);
+            $lsb: rgb(232, 248, 252);
+            $bk: rgb(33, 33, 36);
+            $dg: rgb(32, 32, 32);
+            $g: rgb(41, 41, 41);
+            $lg: rgb(49, 49, 49);
+            $r: rgb(231, 31, 31);
+            $dr:rgb(204, 22, 22);
+            $drr:rgb(172, 16, 16);
+            $ly: rgb(255, 255, 133);
+            $y: rgb(238, 238, 83);
+            
         }
     }
 }
