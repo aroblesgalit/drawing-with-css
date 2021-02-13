@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                border: 0.1px solid #c0c0c0;
+                // border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -2901,14 +2901,92 @@ main {
             $lrb: rgb(207, 237, 243);
             $lsb: rgb(232, 248, 252);
             $bk: rgb(33, 33, 36);
-            $dg: rgb(32, 32, 32);
-            $g: rgb(41, 41, 41);
-            $lg: rgb(49, 49, 49);
+            $dg: rgb(58, 58, 58);
+            $g: rgb(71, 71, 71);
+            $lg: rgb(92, 92, 92);
             $r: rgb(231, 31, 31);
             $dr:rgb(204, 22, 22);
             $drr:rgb(172, 16, 16);
             $ly: rgb(255, 255, 133);
             $y: rgb(238, 238, 83);
+            
+            .pixel {
+                &:nth-child(653),
+                &:nth-child(663),
+                &:nth-child(681),
+                &:nth-child(685),
+                &:nth-child(686),
+                &:nth-child(687),
+                &:nth-child(691),
+                &:nth-child(708),
+                &:nth-child(709),
+                &:nth-child(712),
+                &:nth-child(716),
+                &:nth-child(719),
+                &:nth-child(720),
+                &:nth-child(736),
+                &:nth-child(740),
+                &:nth-child(744),
+                &:nth-child(748),
+                &:nth-child(764),
+                &:nth-child(765),
+                &:nth-child(766),
+                &:nth-child(767),
+                &:nth-child(768),
+                &:nth-child(772),
+                &:nth-child(773),
+                &:nth-child(774),
+                &:nth-child(775),
+                &:nth-child(776) {
+                    background-color: $bk;
+                }
+
+                &:nth-child(710),
+                &:nth-child(718) {
+                    background-color: $r;
+                }
+
+                &:nth-child(737),
+                &:nth-child(747) {
+                    background-color: $dr;
+                }
+
+                &:nth-child(738),
+                &:nth-child(739),
+                &:nth-child(745),
+                &:nth-child(746) {
+                    background-color: $drr;
+                }
+
+                &:nth-child(711),
+                &:nth-child(717) {
+                    background-color: $y;
+                }
+
+                &:nth-child(654),
+                &:nth-child(657),
+                &:nth-child(658),
+                &:nth-child(659),
+                &:nth-child(662),
+                &:nth-child(682),
+                &:nth-child(684),
+                &:nth-child(688),
+                &:nth-child(690) {
+                    background-color: $dg;
+                }
+
+                &:nth-child(655),
+                &:nth-child(661),
+                &:nth-child(683),
+                &:nth-child(689) {
+                    background-color: $g;
+                }
+
+                &:nth-child(656),
+                &:nth-child(660) {
+                    background-color: $lg;
+                }
+            }
             
         }
     }

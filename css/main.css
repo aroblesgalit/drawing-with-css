@@ -2011,7 +2011,6 @@ main {
 }
 
 #pixel-art-main .card .art .pixel {
-  border: 0.1px solid #c0c0c0;
   font-size: 2px;
   color: #c0c0c0;
 }
@@ -2094,5 +2093,37 @@ main {
 
 #pixel-art-main .card #patamon .pixel:nth-child(737), #pixel-art-main .card #patamon .pixel:nth-child(738), #pixel-art-main .card #patamon .pixel:nth-child(739), #pixel-art-main .card #patamon .pixel:nth-child(740), #pixel-art-main .card #patamon .pixel:nth-child(741), #pixel-art-main .card #patamon .pixel:nth-child(742), #pixel-art-main .card #patamon .pixel:nth-child(743), #pixel-art-main .card #patamon .pixel:nth-child(744), #pixel-art-main .card #patamon .pixel:nth-child(745), #pixel-art-main .card #patamon .pixel:nth-child(746), #pixel-art-main .card #patamon .pixel:nth-child(747), #pixel-art-main .card #patamon .pixel:nth-child(764), #pixel-art-main .card #patamon .pixel:nth-child(765), #pixel-art-main .card #patamon .pixel:nth-child(766), #pixel-art-main .card #patamon .pixel:nth-child(767), #pixel-art-main .card #patamon .pixel:nth-child(768), #pixel-art-main .card #patamon .pixel:nth-child(769), #pixel-art-main .card #patamon .pixel:nth-child(770), #pixel-art-main .card #patamon .pixel:nth-child(771), #pixel-art-main .card #patamon .pixel:nth-child(772), #pixel-art-main .card #patamon .pixel:nth-child(773), #pixel-art-main .card #patamon .pixel:nth-child(774) {
   background-color: #8d8d8d;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(653), #pixel-art-main .card #spiderman .pixel:nth-child(663), #pixel-art-main .card #spiderman .pixel:nth-child(681), #pixel-art-main .card #spiderman .pixel:nth-child(685), #pixel-art-main .card #spiderman .pixel:nth-child(686), #pixel-art-main .card #spiderman .pixel:nth-child(687), #pixel-art-main .card #spiderman .pixel:nth-child(691), #pixel-art-main .card #spiderman .pixel:nth-child(708), #pixel-art-main .card #spiderman .pixel:nth-child(709), #pixel-art-main .card #spiderman .pixel:nth-child(712), #pixel-art-main .card #spiderman .pixel:nth-child(716), #pixel-art-main .card #spiderman .pixel:nth-child(719), #pixel-art-main .card #spiderman .pixel:nth-child(720), #pixel-art-main .card #spiderman .pixel:nth-child(736), #pixel-art-main .card #spiderman .pixel:nth-child(740), #pixel-art-main .card #spiderman .pixel:nth-child(744), #pixel-art-main .card #spiderman .pixel:nth-child(748), #pixel-art-main .card #spiderman .pixel:nth-child(764), #pixel-art-main .card #spiderman .pixel:nth-child(765), #pixel-art-main .card #spiderman .pixel:nth-child(766), #pixel-art-main .card #spiderman .pixel:nth-child(767), #pixel-art-main .card #spiderman .pixel:nth-child(768), #pixel-art-main .card #spiderman .pixel:nth-child(772), #pixel-art-main .card #spiderman .pixel:nth-child(773), #pixel-art-main .card #spiderman .pixel:nth-child(774), #pixel-art-main .card #spiderman .pixel:nth-child(775), #pixel-art-main .card #spiderman .pixel:nth-child(776) {
+  background-color: #212124;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(710), #pixel-art-main .card #spiderman .pixel:nth-child(718) {
+  background-color: #e71f1f;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(737), #pixel-art-main .card #spiderman .pixel:nth-child(747) {
+  background-color: #cc1616;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(738), #pixel-art-main .card #spiderman .pixel:nth-child(739), #pixel-art-main .card #spiderman .pixel:nth-child(745), #pixel-art-main .card #spiderman .pixel:nth-child(746) {
+  background-color: #ac1010;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(711), #pixel-art-main .card #spiderman .pixel:nth-child(717) {
+  background-color: #eeee53;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(654), #pixel-art-main .card #spiderman .pixel:nth-child(657), #pixel-art-main .card #spiderman .pixel:nth-child(658), #pixel-art-main .card #spiderman .pixel:nth-child(659), #pixel-art-main .card #spiderman .pixel:nth-child(662), #pixel-art-main .card #spiderman .pixel:nth-child(682), #pixel-art-main .card #spiderman .pixel:nth-child(684), #pixel-art-main .card #spiderman .pixel:nth-child(688), #pixel-art-main .card #spiderman .pixel:nth-child(690) {
+  background-color: #3a3a3a;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(655), #pixel-art-main .card #spiderman .pixel:nth-child(661), #pixel-art-main .card #spiderman .pixel:nth-child(683), #pixel-art-main .card #spiderman .pixel:nth-child(689) {
+  background-color: #474747;
+}
+
+#pixel-art-main .card #spiderman .pixel:nth-child(656), #pixel-art-main .card #spiderman .pixel:nth-child(660) {
+  background-color: #5c5c5c;
 }
 /*# sourceMappingURL=main.css.map */
