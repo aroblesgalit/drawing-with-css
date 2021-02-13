@@ -2011,7 +2011,6 @@ main {
 }
 
 #pixel-art-main .card .art .pixel {
-  border: 0.1px solid #c0c0c0;
   font-size: 2px;
   color: #c0c0c0;
 }
@@ -2090,5 +2089,9 @@ main {
 
 #pixel-art-main .card #patamon .pixel:nth-child(541), #pixel-art-main .card #patamon .pixel:nth-child(542) {
   background-color: #aa6772;
+}
+
+#pixel-art-main .card #patamon .pixel:nth-child(737), #pixel-art-main .card #patamon .pixel:nth-child(738), #pixel-art-main .card #patamon .pixel:nth-child(739), #pixel-art-main .card #patamon .pixel:nth-child(740), #pixel-art-main .card #patamon .pixel:nth-child(741), #pixel-art-main .card #patamon .pixel:nth-child(742), #pixel-art-main .card #patamon .pixel:nth-child(743), #pixel-art-main .card #patamon .pixel:nth-child(744), #pixel-art-main .card #patamon .pixel:nth-child(745), #pixel-art-main .card #patamon .pixel:nth-child(746), #pixel-art-main .card #patamon .pixel:nth-child(747), #pixel-art-main .card #patamon .pixel:nth-child(764), #pixel-art-main .card #patamon .pixel:nth-child(765), #pixel-art-main .card #patamon .pixel:nth-child(766), #pixel-art-main .card #patamon .pixel:nth-child(767), #pixel-art-main .card #patamon .pixel:nth-child(768), #pixel-art-main .card #patamon .pixel:nth-child(769), #pixel-art-main .card #patamon .pixel:nth-child(770), #pixel-art-main .card #patamon .pixel:nth-child(771), #pixel-art-main .card #patamon .pixel:nth-child(772), #pixel-art-main .card #patamon .pixel:nth-child(773), #pixel-art-main .card #patamon .pixel:nth-child(774) {
+  background-color: #8d8d8d;
 }
 /*# sourceMappingURL=main.css.map */

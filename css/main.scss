@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                border: 0.1px solid #c0c0c0;
+                // border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -2572,6 +2572,7 @@ main {
             $lbg: rgb(81, 163, 159);
             $lrbg: rgb(132, 204, 200);
             $bk: rgb(33, 33, 36);
+            $g: rgb(141, 141, 141);
             $yo: rgb(247, 171, 73);
             $o: rgb(218, 133, 23);
             
@@ -2866,7 +2867,31 @@ main {
                 &:nth-child(542) {
                     background-color: $dp;
                 }
-                
+
+                &:nth-child(737),
+                &:nth-child(738),
+                &:nth-child(739),
+                &:nth-child(740),
+                &:nth-child(741),
+                &:nth-child(742),
+                &:nth-child(743),
+                &:nth-child(744),
+                &:nth-child(745),
+                &:nth-child(746),
+                &:nth-child(747),
+                &:nth-child(764),
+                &:nth-child(765),
+                &:nth-child(766),
+                &:nth-child(767),
+                &:nth-child(768),
+                &:nth-child(769),
+                &:nth-child(770),
+                &:nth-child(771),
+                &:nth-child(772),
+                &:nth-child(773),
+                &:nth-child(774) {
+                    background-color: $g;
+                }
             }
         }
     }
