@@ -2911,6 +2911,28 @@ main {
             $y: rgb(238, 238, 83);
             
             .pixel {
+                &:nth-child(512),
+                &:nth-child(524),
+                &:nth-child(539),
+                &:nth-child(542),
+                &:nth-child(550),
+                &:nth-child(553),
+                &:nth-child(566),
+                &:nth-child(570),
+                &:nth-child(578),
+                &:nth-child(582),
+                &:nth-child(594),
+                &:nth-child(597),
+                &:nth-child(598),
+                &:nth-child(606),
+                &:nth-child(607),
+                &:nth-child(610),
+                &:nth-child(623),
+                &:nth-child(624),
+                &:nth-child(626),
+                &:nth-child(634),
+                &:nth-child(636),
+                &:nth-child(637),
                 &:nth-child(653),
                 &:nth-child(663),
                 &:nth-child(681),
@@ -2941,16 +2963,32 @@ main {
                     background-color: $bk;
                 }
 
+                &:nth-child(517),
+                &:nth-child(518),
+                &:nth-child(519),
+                &:nth-child(567),
+                &:nth-child(581),
+                &:nth-child(602),
                 &:nth-child(710),
                 &:nth-child(718) {
                     background-color: $r;
                 }
 
+                &:nth-child(595),
+                &:nth-child(601),
+                &:nth-child(603),
+                &:nth-child(609),
+                &:nth-child(628),
+                &:nth-child(632),
                 &:nth-child(737),
                 &:nth-child(747) {
                     background-color: $dr;
                 }
 
+                &:nth-child(596),
+                &:nth-child(608),
+                &:nth-child(627),
+                &:nth-child(633),
                 &:nth-child(738),
                 &:nth-child(739),
                 &:nth-child(745),
@@ -2958,11 +2996,38 @@ main {
                     background-color: $drr;
                 }
 
+                &:nth-child(572),
+                &:nth-child(576),
+                &:nth-child(599),
+                &:nth-child(605),
                 &:nth-child(711),
                 &:nth-child(717) {
                     background-color: $y;
                 }
 
+                &:nth-child(514),
+                &:nth-child(522),
+                &:nth-child(544),
+                &:nth-child(548) {
+                    background-color: $ly;
+                }
+
+                &:nth-child(515),
+                &:nth-child(516),
+                &:nth-child(520),
+                &:nth-child(521),
+                &:nth-child(545),
+                &:nth-child(546),
+                &:nth-child(547),
+                &:nth-child(568),
+                &:nth-child(571),
+                &:nth-child(573),
+                &:nth-child(574),
+                &:nth-child(575),
+                &:nth-child(577),
+                &:nth-child(580),
+                &:nth-child(600),
+                &:nth-child(604),
                 &:nth-child(654),
                 &:nth-child(657),
                 &:nth-child(658),
@@ -2975,6 +3040,14 @@ main {
                     background-color: $dg;
                 }
 
+                &:nth-child(513),
+                &:nth-child(523),
+                &:nth-child(540),
+                &:nth-child(543),
+                &:nth-child(549),
+                &:nth-child(552),
+                &:nth-child(569),
+                &:nth-child(579),
                 &:nth-child(655),
                 &:nth-child(661),
                 &:nth-child(683),
@@ -2982,6 +3055,11 @@ main {
                     background-color: $g;
                 }
 
+                &:nth-child(541),
+                &:nth-child(551),
+                &:nth-child(629),
+                &:nth-child(630),
+                &:nth-child(631),
                 &:nth-child(656),
                 &:nth-child(660) {
                     background-color: $lg;
