@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                // border: 0.1px solid #c0c0c0;
+                border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -2911,6 +2911,23 @@ main {
             $y: rgb(238, 238, 83);
             
             .pixel {
+                &:nth-child(372),
+                &:nth-child(384),
+                &:nth-child(400),
+                &:nth-child(412),
+                &:nth-child(429),
+                &:nth-child(439),
+                &:nth-child(458),
+                &:nth-child(459),
+                &:nth-child(465),
+                &:nth-child(466),
+                &:nth-child(485),
+                &:nth-child(488),
+                &:nth-child(489),
+                &:nth-child(490),
+                &:nth-child(491),
+                &:nth-child(492),
+                &:nth-child(495),
                 &:nth-child(512),
                 &:nth-child(524),
                 &:nth-child(539),
@@ -2963,6 +2980,19 @@ main {
                     background-color: $bk;
                 }
 
+                &:nth-child(377),
+                &:nth-child(378),
+                &:nth-child(379),
+                &:nth-child(403),
+                &:nth-child(404),
+                &:nth-child(405),
+                &:nth-child(406),
+                &:nth-child(407),
+                &:nth-child(408),
+                &:nth-child(409),
+                &:nth-child(433),
+                &:nth-child(434),
+                &:nth-child(435),
                 &:nth-child(517),
                 &:nth-child(518),
                 &:nth-child(519),
@@ -2974,6 +3004,10 @@ main {
                     background-color: $r;
                 }
 
+                &:nth-child(410),
+                &:nth-child(402),
+                &:nth-child(432),
+                &:nth-child(436),
                 &:nth-child(595),
                 &:nth-child(601),
                 &:nth-child(603),
@@ -2985,6 +3019,21 @@ main {
                     background-color: $dr;
                 }
 
+                &:nth-child(373),
+                &:nth-child(383),
+                &:nth-child(401),
+                &:nth-child(411),
+                &:nth-child(430),
+                &:nth-child(431),
+                &:nth-child(437),
+                &:nth-child(438),
+                &:nth-child(460),
+                &:nth-child(461),
+                &:nth-child(462),
+                &:nth-child(463),
+                &:nth-child(464),
+                &:nth-child(487),
+                &:nth-child(493),
                 &:nth-child(596),
                 &:nth-child(608),
                 &:nth-child(627),
@@ -3005,6 +3054,8 @@ main {
                     background-color: $y;
                 }
 
+                &:nth-child(486),
+                &:nth-child(494),
                 &:nth-child(514),
                 &:nth-child(522),
                 &:nth-child(544),
@@ -3012,6 +3063,12 @@ main {
                     background-color: $ly;
                 }
 
+                &:nth-child(374),
+                &:nth-child(375),
+                &:nth-child(376),
+                &:nth-child(380),
+                &:nth-child(381),
+                &:nth-child(382),
                 &:nth-child(515),
                 &:nth-child(516),
                 &:nth-child(520),
