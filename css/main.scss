@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                border: 0.1px solid #c0c0c0;
+                // border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -2911,6 +2911,23 @@ main {
             $y: rgb(238, 238, 83);
             
             .pixel {
+                &:nth-child(95),
+                &:nth-child(96),
+                &:nth-child(97),
+                &:nth-child(98),
+                &:nth-child(99),
+                &:nth-child(100),
+                &:nth-child(101),
+                &:nth-child(121),
+                &:nth-child(122),
+                &:nth-child(130),
+                &:nth-child(131),
+                &:nth-child(148),
+                &:nth-child(160),
+                &:nth-child(176),
+                &:nth-child(188),
+                &:nth-child(203),
+                &:nth-child(217),
                 &:nth-child(231),
                 &:nth-child(245),
                 &:nth-child(259),
@@ -2990,6 +3007,27 @@ main {
                     background-color: $bk;
                 }
 
+                &:nth-child(152),
+                &:nth-child(153),
+                &:nth-child(154),
+                &:nth-child(155),
+                &:nth-child(156),
+                &:nth-child(179),
+                &:nth-child(180),
+                &:nth-child(181),
+                &:nth-child(182),
+                &:nth-child(183),
+                &:nth-child(184),
+                &:nth-child(185),
+                &:nth-child(206),
+                &:nth-child(207),
+                &:nth-child(208),
+                &:nth-child(209),
+                &:nth-child(210),
+                &:nth-child(211),
+                &:nth-child(212),
+                &:nth-child(213),
+                &:nth-child(214),
                 &:nth-child(233),
                 &:nth-child(235),
                 &:nth-child(236),
@@ -3033,6 +3071,12 @@ main {
                     background-color: $r;
                 }
 
+                &:nth-child(151),
+                &:nth-child(157),
+                &:nth-child(178),
+                &:nth-child(186),
+                &:nth-child(205),
+                &:nth-child(215),
                 &:nth-child(410),
                 &:nth-child(402),
                 &:nth-child(432),
@@ -3048,6 +3092,21 @@ main {
                     background-color: $dr;
                 }
 
+                &:nth-child(123),
+                &:nth-child(124),
+                &:nth-child(125),
+                &:nth-child(126),
+                &:nth-child(127),
+                &:nth-child(128),
+                &:nth-child(129),
+                &:nth-child(149),
+                &:nth-child(150),
+                &:nth-child(158),
+                &:nth-child(159),
+                &:nth-child(177),
+                &:nth-child(187),
+                &:nth-child(204),
+                &:nth-child(216),
                 &:nth-child(232),
                 &:nth-child(244),
                 &:nth-child(260),
