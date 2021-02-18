@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                border: 0.1px solid #c0c0c0;
+                // border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -3272,14 +3272,62 @@ main {
         }
 
         #beedrill {
-            $bk: rgb(33, 33, 36);
-            $g: rgb(58, 58, 61);
+            $dg: rgb(61, 61, 65);
+            $g: rgb(100, 100, 104);
             $y: rgb(250, 250, 67);
             $dy: rgb(211, 194, 40);
             $r: rgb(243, 47, 47);
             $w: rgb(241, 240, 252);
             $lb: rgb(216, 212, 255);
             $b: rgb(159, 150, 243);
+
+            .pixel {
+                &:nth-child(516),
+                &:nth-child(517),
+                &:nth-child(526),
+                &:nth-child(543),
+                &:nth-child(570),
+                &:nth-child(575),
+                &:nth-child(597),
+                &:nth-child(602),
+                &:nth-child(603),
+                &:nth-child(625),
+                &:nth-child(626),
+                &:nth-child(627),
+                &:nth-child(628),
+                &:nth-child(629) {
+                    background-color: $g;
+                }
+
+                &:nth-child(519),
+                &:nth-child(520),
+                &:nth-child(523),
+                &:nth-child(524),
+                &:nth-child(525),
+                &:nth-child(546),
+                &:nth-child(547) {
+                    background-color: $dg;
+                }
+
+                &:nth-child(544),
+                &:nth-child(545),
+                &:nth-child(571),
+                &:nth-child(572),
+                &:nth-child(598) {
+                    background-color: $w;
+                }
+
+                &:nth-child(573),
+                &:nth-child(574),
+                &:nth-child(599),
+                &:nth-child(600) {
+                    background-color: $lb;
+                }
+
+                &:nth-child(601) {
+                    background-color: $b;
+                }
+            }
         }
     }
 }

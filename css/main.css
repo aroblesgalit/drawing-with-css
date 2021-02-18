@@ -2011,7 +2011,6 @@ main {
 }
 
 #pixel-art-main .card .art .pixel {
-  border: 0.1px solid #c0c0c0;
   font-size: 2px;
   color: #c0c0c0;
 }
@@ -2146,5 +2145,25 @@ main {
 
 #pixel-art-main .card #spiderman .pixel:nth-child(320), #pixel-art-main .card #spiderman .pixel:nth-child(324) {
   background-color: #e8f8fc;
+}
+
+#pixel-art-main .card #beedrill .pixel:nth-child(516), #pixel-art-main .card #beedrill .pixel:nth-child(517), #pixel-art-main .card #beedrill .pixel:nth-child(526), #pixel-art-main .card #beedrill .pixel:nth-child(543), #pixel-art-main .card #beedrill .pixel:nth-child(570), #pixel-art-main .card #beedrill .pixel:nth-child(575), #pixel-art-main .card #beedrill .pixel:nth-child(597), #pixel-art-main .card #beedrill .pixel:nth-child(602), #pixel-art-main .card #beedrill .pixel:nth-child(603), #pixel-art-main .card #beedrill .pixel:nth-child(625), #pixel-art-main .card #beedrill .pixel:nth-child(626), #pixel-art-main .card #beedrill .pixel:nth-child(627), #pixel-art-main .card #beedrill .pixel:nth-child(628), #pixel-art-main .card #beedrill .pixel:nth-child(629) {
+  background-color: #646468;
+}
+
+#pixel-art-main .card #beedrill .pixel:nth-child(519), #pixel-art-main .card #beedrill .pixel:nth-child(520), #pixel-art-main .card #beedrill .pixel:nth-child(523), #pixel-art-main .card #beedrill .pixel:nth-child(524), #pixel-art-main .card #beedrill .pixel:nth-child(525), #pixel-art-main .card #beedrill .pixel:nth-child(546), #pixel-art-main .card #beedrill .pixel:nth-child(547) {
+  background-color: #3d3d41;
+}
+
+#pixel-art-main .card #beedrill .pixel:nth-child(544), #pixel-art-main .card #beedrill .pixel:nth-child(545), #pixel-art-main .card #beedrill .pixel:nth-child(571), #pixel-art-main .card #beedrill .pixel:nth-child(572), #pixel-art-main .card #beedrill .pixel:nth-child(598) {
+  background-color: #f1f0fc;
+}
+
+#pixel-art-main .card #beedrill .pixel:nth-child(573), #pixel-art-main .card #beedrill .pixel:nth-child(574), #pixel-art-main .card #beedrill .pixel:nth-child(599), #pixel-art-main .card #beedrill .pixel:nth-child(600) {
+  background-color: #d8d4ff;
+}
+
+#pixel-art-main .card #beedrill .pixel:nth-child(601) {
+  background-color: #9f96f3;
 }
 /*# sourceMappingURL=main.css.map */
