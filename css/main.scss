@@ -3282,6 +3282,28 @@ main {
             $b: rgb(159, 150, 243);
 
             .pixel {
+                &:nth-child(369),
+                &:nth-child(390),
+                &:nth-child(391),
+                &:nth-child(396),
+                &:nth-child(419),
+                &:nth-child(423),
+                &:nth-child(426),
+                &:nth-child(427),
+                &:nth-child(439),
+                &:nth-child(444),
+                &:nth-child(446),
+                &:nth-child(451),
+                &:nth-child(452),
+                &:nth-child(453),
+                &:nth-child(466),
+                &:nth-child(469),
+                &:nth-child(470),
+                &:nth-child(472),
+                &:nth-child(473),
+                &:nth-child(496),
+                &:nth-child(497),
+                &:nth-child(499),
                 &:nth-child(516),
                 &:nth-child(517),
                 &:nth-child(526),
@@ -3299,6 +3321,35 @@ main {
                     background-color: $g;
                 }
 
+                &:nth-child(371),
+                &:nth-child(380),
+                &:nth-child(383),
+                &:nth-child(389),
+                &:nth-child(400),
+                &:nth-child(408),
+                &:nth-child(409),
+                &:nth-child(411),
+                &:nth-child(412),
+                &:nth-child(416),
+                &:nth-child(428),
+                &:nth-child(435),
+                &:nth-child(437),
+                &:nth-child(438),
+                &:nth-child(441),
+                &:nth-child(442),
+                &:nth-child(443),
+                &:nth-child(457),
+                &:nth-child(461),
+                &:nth-child(462),
+                &:nth-child(463),
+                &:nth-child(464),
+                &:nth-child(465),
+                &:nth-child(486),
+                &:nth-child(487),
+                &:nth-child(488),
+                &:nth-child(492),
+                &:nth-child(493),
+                &:nth-child(494),
                 &:nth-child(519),
                 &:nth-child(520),
                 &:nth-child(523),
@@ -3309,6 +3360,10 @@ main {
                     background-color: $dg;
                 }
 
+                &:nth-child(370),
+                &:nth-child(377),
+                &:nth-child(397),
+                &:nth-child(424),
                 &:nth-child(544),
                 &:nth-child(545),
                 &:nth-child(571),
@@ -3317,6 +3372,11 @@ main {
                     background-color: $w;
                 }
 
+                &:nth-child(398),
+                &:nth-child(399),
+                &:nth-child(413),
+                &:nth-child(415),
+                &:nth-child(425),
                 &:nth-child(573),
                 &:nth-child(574),
                 &:nth-child(599),
@@ -3324,8 +3384,59 @@ main {
                     background-color: $lb;
                 }
 
+                &:nth-child(384),
+                &:nth-child(385),
+                &:nth-child(386),
+                &:nth-child(387),
+                &:nth-child(388),
+                &:nth-child(414),
                 &:nth-child(601) {
                     background-color: $b;
+                }
+
+                &:nth-child(373),
+                &:nth-child(374),
+                &:nth-child(375),
+                &:nth-child(401),
+                &:nth-child(402),
+                &:nth-child(403),
+                &:nth-child(417),
+                &:nth-child(430),
+                &:nth-child(431),
+                &:nth-child(440),
+                &:nth-child(467),
+                &:nth-child(468) {
+                    background-color: $y;
+                }
+
+                &:nth-child(381),
+                &:nth-child(382),
+                &:nth-child(410),
+                &:nth-child(418),
+                &:nth-child(429),
+                &:nth-child(436),
+                &:nth-child(445),
+                &:nth-child(458),
+                &:nth-child(459),
+                &:nth-child(460),
+                &:nth-child(471),
+                &:nth-child(495),
+                &:nth-child(498) {
+                    background-color: $dy;
+                }
+
+                &:nth-child(372),
+                &:nth-child(376),
+                &:nth-child(378),
+                &:nth-child(379),
+                &:nth-child(404),
+                &:nth-child(405),
+                &:nth-child(406),
+                &:nth-child(407),
+                &:nth-child(432),
+                &:nth-child(433),
+                &:nth-child(434) {
+                    background-color: $r;
                 }
             }
         }
