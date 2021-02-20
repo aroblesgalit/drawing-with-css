@@ -2135,7 +2135,7 @@ main {
             grid-template-rows: repeat(28, 5px);
 
             .pixel {
-                // border: 0.1px solid #c0c0c0;
+                border: 0.1px solid #c0c0c0;
                 font-size: 2px;
                 color: #c0c0c0;
             }
@@ -3282,6 +3282,8 @@ main {
             $b: rgb(159, 150, 243);
 
             .pixel {
+                &:nth-child(264),
+                &:nth-child(342),
                 &:nth-child(369),
                 &:nth-child(390),
                 &:nth-child(391),
@@ -3321,6 +3323,38 @@ main {
                     background-color: $g;
                 }
 
+                &:nth-child(233),
+                &:nth-child(234),
+                &:nth-child(237),
+                &:nth-child(238),
+                &:nth-child(240),
+                &:nth-child(243),
+                &:nth-child(245),
+                &:nth-child(251),
+                &:nth-child(260),
+                &:nth-child(262),
+                &:nth-child(265),
+                &:nth-child(267),
+                &:nth-child(268),
+                &:nth-child(270),
+                &:nth-child(272),
+                &:nth-child(278),
+                &:nth-child(287),
+                &:nth-child(292),
+                &:nth-child(296),
+                &:nth-child(298),
+                &:nth-child(299),
+                &:nth-child(305),
+                &:nth-child(315),
+                &:nth-child(326),
+                &:nth-child(331),
+                &:nth-child(332),
+                &:nth-child(343),
+                &:nth-child(354),
+                &:nth-child(356),
+                &:nth-child(357),
+                &:nth-child(358),
+                &:nth-child(361),
                 &:nth-child(371),
                 &:nth-child(380),
                 &:nth-child(383),
@@ -3360,6 +3394,15 @@ main {
                     background-color: $dg;
                 }
 
+                &:nth-child(241),
+                &:nth-child(246),
+                &:nth-child(247),
+                &:nth-child(269),
+                &:nth-child(273),
+                &:nth-child(297),
+                &:nth-child(300),
+                &:nth-child(316),
+                &:nth-child(327),
                 &:nth-child(370),
                 &:nth-child(377),
                 &:nth-child(397),
@@ -3372,6 +3415,17 @@ main {
                     background-color: $w;
                 }
 
+                &:nth-child(242),
+                &:nth-child(248),
+                &:nth-child(249),
+                &:nth-child(250),
+                &:nth-child(274),
+                &:nth-child(302),
+                &:nth-child(303),
+                &:nth-child(304),
+                &:nth-child(328),
+                &:nth-child(329),
+                &:nth-child(355),
                 &:nth-child(398),
                 &:nth-child(399),
                 &:nth-child(413),
@@ -3384,6 +3438,13 @@ main {
                     background-color: $lb;
                 }
 
+                &:nth-child(275),
+                &:nth-child(276),
+                &:nth-child(277),
+                &:nth-child(301),
+                &:nth-child(330),
+                &:nth-child(359),
+                &:nth-child(360),
                 &:nth-child(384),
                 &:nth-child(385),
                 &:nth-child(386),
@@ -3394,6 +3455,29 @@ main {
                     background-color: $b;
                 }
 
+                &:nth-child(235),
+                &:nth-child(236),
+                &:nth-child(261),
+                &:nth-child(263),
+                &:nth-child(266),
+                &:nth-child(289),
+                &:nth-child(290),
+                &:nth-child(291),
+                &:nth-child(293),
+                &:nth-child(294),
+                &:nth-child(295),
+                &:nth-child(317),
+                &:nth-child(318),
+                &:nth-child(319),
+                &:nth-child(320),
+                &:nth-child(321),
+                &:nth-child(322),
+                &:nth-child(323),                
+                &:nth-child(345),
+                &:nth-child(346),
+                &:nth-child(347),
+                &:nth-child(348),
+                &:nth-child(351),
                 &:nth-child(373),
                 &:nth-child(374),
                 &:nth-child(375),
@@ -3409,6 +3493,10 @@ main {
                     background-color: $y;
                 }
 
+                &:nth-child(324),
+                &:nth-child(325),
+                &:nth-child(352),
+                &:nth-child(353),
                 &:nth-child(381),
                 &:nth-child(382),
                 &:nth-child(410),
@@ -3425,6 +3513,10 @@ main {
                     background-color: $dy;
                 }
 
+                &:nth-child(288),
+                &:nth-child(344),
+                &:nth-child(349),
+                &:nth-child(350),
                 &:nth-child(372),
                 &:nth-child(376),
                 &:nth-child(378),
